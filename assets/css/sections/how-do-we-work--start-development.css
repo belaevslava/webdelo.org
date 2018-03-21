@@ -1,0 +1,87 @@
+.dropdown-item[href="#link-to--how-do-we-work--start-development"].active,
+.dropdown-item[href="#link-to--how-do-we-work--start-development"]:active,
+#how-do-we-work--start-development {
+    background: linear-gradient(45deg, #6b4a96, #9c4a88);
+    background-size: 100% 100%;
+    background-position: 0% 51%;
+}
+
+#how-do-we-work--start-development {
+    overflow: hidden;
+}
+
+#how-do-we-work--start-development:before {
+    content: "";
+    display: block;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    opacity: 0;
+    background-size: cover;
+    background-position: top;
+    background-image: url(../../images/sections/how-do-we-work--start-development/bg.svg);
+    transition: 1.4s ease;
+}
+#how-do-we-work--start-development.fp-completely.active:before {
+    opacity: 1;
+    animation: brightnessAnimation 24s ease infinite;
+}
+
+#development-process--diagram {
+    overflow: auto;
+    overflow-scrolling: touch;
+    -webkit-overflow-scrolling: touch;
+}
+
+@media (min-width: 992px) {
+    #how-do-we-work--projection .h1,
+    #how-do-we-work--start-development .h1,
+    #how-do-we-work--deployment-and-support .h1 {
+        font-size: 1rem !important;
+    }
+    #how-do-we-work--projection h2,
+    #how-do-we-work--start-development h2,
+    #how-do-we-work--deployment-and-support h2 {
+        font-size: 3rem !important;
+    }
+}
+@media (max-width: 767px) {
+    #development-process--diagram {
+        position: relative;
+    }
+
+    #development-process--diagram svg {
+        height: 200px;
+    }
+
+    .fp-section.active #development-process--diagram svg {
+        animation: scrollProcessDiagram 10s;
+    }
+
+    .fp-section.active #development-process--diagram {
+        animation: disableScroll 10s;
+    }
+
+    @keyframes disableScroll {
+        0% { overflow: hidden; }
+        99% { overflow: hidden; }
+        100% { overflow: scroll; }
+    }
+
+    @keyframes scrollProcessDiagram {
+        0% { transform: translateX(0px); }
+        20% { transform: translateX(-50px); }
+        35% { transform: translateX(-380px); }
+        40% { transform: translateX(-380px); }
+        50% { transform: translateX(-580px); }
+        55% { transform: translateX(-580px); }
+        65% { transform: translateX(-950px); }
+        90% { transform: translateX(-950px); }
+    }
+}
+
+#how-do-we-work--start-development footer {
+    font-weight: 100;
+}

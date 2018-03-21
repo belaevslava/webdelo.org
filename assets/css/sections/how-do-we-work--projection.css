@@ -1,0 +1,168 @@
+.dropdown-item[href="#link-to--how-do-we-work--projection"].active,
+.dropdown-item[href="#link-to--how-do-we-work--projection"]:active,
+#how-do-we-work--projection {
+    background: linear-gradient(45deg, #c83d63, #f4a062);
+    background-size: 100% 100%;
+    background-position: 0% 51%;
+}
+#how-do-we-work--projection {
+    overflow: hidden;
+}
+
+#how-do-we-work--projection .next-slide {
+    right: 250px;
+    left: initial;
+}
+
+#how-do-we-work--projection .h1 {
+    display: none;
+}
+
+#how-do-we-work--projection .runProjectingDiagram {
+    font-size: 1.5rem;
+    text-decoration: none;
+    z-index: 99;
+}
+#how-do-we-work--projection .runProjectingDiagram [data-icon] {
+    background-color: #fff;
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    background-size: 24px;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-right: 24px;
+    box-shadow:
+        #F6E94A 0 0 0 3px,
+        #FFF 0 0 0 8px;
+}
+
+#how-do-we-work--projection .runProjectingDiagram [data-icon] {
+    animation: runIconAnimation 1s infinite;
+}
+
+@keyframes runIconAnimation {
+    0% { background-color: #fff; }
+    50% { background-color: rgb(253, 250, 217); }
+    100% { background-color: #fff; }
+}
+
+#how-do-we-work--projection--diagram {
+    margin-bottom: 0;
+}
+
+#how-do-we-work--projection #blockquote {
+    position: relative;
+    background-color: #fff8a0;
+}
+
+#how-do-we-work--projection #blockquote picture {
+    display: none;
+}
+
+#how-do-we-work--projection .btn-container {
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+
+.list-of-tetris-figures {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+}
+.list-of-tetris-figures>li {
+    flex: 1 50%;
+    display: flex;
+    align-items: center;
+}
+.tetris-figure {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 24px;
+}
+.tetris-figure>img {
+    margin-right: 24px;
+}
+.tetris-figure>figcaption {
+    font-size: 1.125rem;
+}
+
+@media (min-width: 768px) {
+    #how-do-we-work--projection #blockquote:before {
+        content: "";
+        display: block;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 200px;
+        width: 1000px;
+        background-color: #fff8a0;
+    }
+    #how-do-we-work--projection #blockquote {
+        border-radius: 60px 0 0 60px;
+    }
+
+    #how-do-we-work--projection #blockquote picture {
+        margin-top: -60px;
+    }
+    #blockquote .blockquote {
+        font-size: 1rem;
+        padding-left: 50px!important;
+    }
+    #blockquote .blockquote-footer::before {
+        display: none;
+    }
+    #blockquote .blockquote-footer cite {
+        font-style: initial;
+    }
+    #blockquote .figure-caption {
+        z-index: 1;
+    }
+}
+
+@media (min-width: 1200px) {
+    #how-do-we-work--projection #blockquote picture {
+        margin-top: -20px;
+        display: block;
+    }
+    #how-do-we-work--projection #blockquote picture>img {
+        max-width: 250px;
+        image-rendering: -webkit-optimize-contrast;
+    }
+    #how-do-we-work--projection #blockquote {
+        position: relative;
+        border-radius: 120px 0 0 0;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+    #how-do-we-work--projection .gd-btn-container {
+        bottom: initial;
+        top: 65px;
+        right: 20px;
+        position: absolute;
+    }
+}
+
+@media (max-width: 767px) {
+    #how-do-we-work--projection #blockquote {
+        text-align: center;
+        padding-top: 24px;
+        padding-bottom: 0;
+        flex-direction: column-reverse;
+    }
+    #how-do-we-work--projection #blockquote {
+        margin-bottom: 0!important;
+    }
+
+    #how-do-we-work--projection #blockquote {
+        display: none;
+    }
+    #tetris {
+        margin-bottom: 24px;
+    }
+}

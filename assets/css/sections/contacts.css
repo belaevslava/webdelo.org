@@ -1,0 +1,159 @@
+#contacts {
+    position: relative;
+    padding-bottom: 0;
+    background: linear-gradient(235deg, #185a9d, #43cea2);
+    background-size: 100% 100%;
+    background-position: 0% 51%;
+}
+#contacts>.container {
+    padding-bottom: 70px;
+}
+
+#contacts:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    opacity: 0;
+    background: url(../../images/sections/contacts/map.svg) center right no-repeat;
+    transition: all 1.4s ease;
+}
+#contacts.active.fp-completely:before {
+    opacity: 1;
+    animation: contactAnimateBg 24s infinite;
+}
+
+#contacts>footer {
+    background-color: rgba(0,0,0,.2);
+    z-index: 1;
+}
+
+@keyframes contactAnimateBg {
+    0% {filter: brightness(100%);}
+    50% {filter: brightness(120%);}
+    100% {filter: brightness(100%);}
+}
+
+#list-of-contacts {
+    word-break: break-all;
+}
+#list-of-contacts .contact--photo {
+    max-width: 64px;
+}
+#list-of-contacts .contact--country {
+    color: #F8FEA5;
+    font-size: 24px;
+}
+#list-of-contacts .contact--name {
+    font-size: 20px;
+}
+#list-of-contacts .contact--contacts {
+    font-size: 18px;
+}
+
+#table-of-contacts tr>td:first-child {
+    width: 120px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    color: #D5D5D5;
+    font-weight: 300;
+    font-size: 18px;
+}
+
+#table-of-contacts tr>td a {
+    font-size: 18px;
+}
+
+
+#list-of-social-links .icon-linkedin,
+#list-of-social-links .icon-github,
+#list-of-social-links .icon-facebook,
+#list-of-social-links .icon-instagram {
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    vertical-align: middle;
+    margin-right: 12px;
+}
+
+#list-of-social-links .icon-linkedin {
+    background-image: url(../../images/sections/contacts/linkedin.svg);
+}
+#list-of-social-links .icon-github {
+    background-image: url(../../images/sections/contacts/github.svg);
+}
+#list-of-social-links .icon-facebook {
+    background-image: url(../../images/sections/contacts/facebook.svg);
+}
+#list-of-social-links .icon-instagram {
+    background-image: url(../../images/sections/contacts/instagram.svg);
+}
+
+#contacts-feedback-form .form-control {
+    font-size: 16px;
+    color: #A8A8A8;
+    font-weight: 200;
+}
+
+#contacts-feedback-form .btn {
+    font-weight: 100;
+    font-size: 16px;
+    width: 200px;
+}
+
+#contacts .btn-container {
+    text-align: center;
+}
+
+@media (min-width: 768px) {
+    #contacts>footer {
+        position: absolute;
+        bottom: 0;
+    }
+    #contacts .btn-container {
+        text-align: right;
+    }
+}
+
+@media (max-width: 1200px) {
+    #contacts:before {
+        background-position: center;
+        filter: brightness(70%);
+    }
+}
+@media (max-width: 992px) {
+    #contacts:before {
+        background-size: 100% auto;
+        filter: brightness(50%);
+    }
+}
+@media (max-width: 374px) {
+    #contacts>footer>.container {
+        padding: 16px 0!important;
+    }
+    #table-of-contacts tr,
+    #table-of-contacts td {
+        display: block;
+        width: initial!important;
+        text-align: center;
+    }
+    #contacts .contact {
+        display: block!important;
+        text-align: center;
+    }
+    #contacts .contact>img {
+        margin-right: 0!important;
+        margin-bottom: 12px;
+    }
+    #list-of-social-links a {
+        display: inline-block;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        max-width: 140px;
+    }
+}

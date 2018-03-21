@@ -1,0 +1,14 @@
+version: "3"
+
+services:
+  webserver:
+    image: php:7.1-apache
+    volumes:
+      - .:/var/www/html
+    ports:
+      - 80:80
+  npm_installer:
+    image: node
+    volumes:
+      - .:/tmp/npm_installer
+    command: bash -c "cd tmp/npm_installer && npm install -y"

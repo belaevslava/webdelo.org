@@ -1,0 +1,332 @@
+#technologies {
+    background: linear-gradient(235deg, #2D2D2D, #1A1A1A);
+    background-size: 100% 100%;
+    background-position: 0% 51%;
+    overflow: hidden;
+}
+#technologies img {
+    max-width: 100%;
+}
+#technologies p {
+    font-size: 1.2rem;
+    font-weight: 300;
+    color: #8C8B8B!important;
+}
+
+#technologies h2 {
+    font-size: 3rem;
+    padding-bottom: 36px;
+}
+
+#technologies figure h3 {
+    font-weight: 300;
+    font-size: 1.5rem;
+}
+#technologies .h4 {
+    font-weight: 300;
+}
+
+#technologies img[src*="typescript_logo"] {
+    margin-top: -100px;
+}
+
+#technologies__environment-diagram ul.row>li:first-child,
+#technologies__environment-diagram ul.row>li:last-child {
+    margin-top: -36px;
+}
+
+#technologies__progress-bar {
+    height: 3px;
+    background-color: #D8D8D8;
+    overflow: initial;
+    justify-content: flex-end;
+}
+#technologies__progress-bar>.progress-bar {
+    position: relative;
+    width: 25%;
+    background: linear-gradient(to left, rgb(255, 250, 28) 50%, transparent 50%);
+    background-size: 200% 200%;
+    background-position-x: 200%;
+    transition: all 4s ease;
+}
+#technologies__progress-bar>.progress-bar:nth-child(1) { z-index: 4 }
+#technologies__progress-bar>.progress-bar:nth-child(2) { z-index: 3 }
+#technologies__progress-bar>.progress-bar:nth-child(3) { z-index: 2 }
+#technologies__progress-bar>.progress-bar:nth-child(4) { z-index: 1 }
+
+#technologies__progress-bar>.progress-bar:first-child {
+    width: 0;
+}
+#technologies__progress-bar>.progress-bar.active {
+    background-position-x: 100%;
+}
+#technologies__progress-bar>.progress-bar:hover>button,
+#technologies__progress-bar>.progress-bar.active>button {
+    color: rgb(255, 250, 28);
+}
+#technologies__progress-bar>.progress-bar.active>button {
+    font-weight: 500;
+}
+#technologies__progress-bar>.progress-bar.active>button:before {
+    background-color: rgb(255, 250, 28);
+}
+#technologies__progress-bar>.progress-bar>button {
+    display: block;
+    position: absolute;
+    width: 100px;
+    right: -50px;
+    bottom: 0;
+    top: -60px;
+    border: none;
+    background-color: transparent;
+    color: #bfbfbf;
+    outline: none;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 300;
+}
+#technologies__progress-bar>.progress-bar>button:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 60px;
+    width: 30px;
+    height: 30px;
+    margin: auto;
+    border-radius: 50%;
+    background-color: #fff;
+    border: 4px solid rgb(255, 250, 28);
+}
+#technologies__progress-bar>.progress-bar>button:hover {
+    border-color: rgb(200, 200, 0);
+}
+
+
+#technologies .anim-step {
+    position: absolute;
+    opacity: 0;
+    z-index: -1;
+}
+
+#technologies .tech-logos {
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+
+#technologies .btn-light {
+    color: #282828 !important;
+}
+
+#technologies .icon-next {
+    filter: brightness(0);
+}
+
+#technologies .tech-logos figcaption {
+    position: relative;
+}
+
+.l-1,
+.l-2,
+.l-3,
+.l-4,
+.l-5,
+.l-6,
+.l-7 {
+    position: relative;
+    opacity: 0;
+}
+
+#technologies__animation-container {
+    height: 450px;
+}
+
+#technologies .technologies__actions {
+    position: absolute;
+    bottom: 70px;
+    right: 0;
+}
+#technologies .technologies__actions .btn {
+    margin-right: 16px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    min-width: 120px;
+    font-weight: 300;
+    opacity: .8;
+}
+#technologies .technologies__actions .btn:hover {
+    opacity: 1;
+}
+
+.ln {
+    position: relative;
+    opacity: 0;
+}
+
+#technologies__progress-bar {
+    height: 3px;
+    background-color: #D8D8D8;
+    overflow: initial;
+    justify-content: flex-end;
+}
+#technologies__progress-bar>.progress-bar {
+    position: relative;
+    width: 25%;
+    background: linear-gradient(to left, rgb(255, 250, 28) 50%, transparent 50%);
+    background-size: 200% 200%;
+    background-position-x: 200%;
+    transition: all 1s ease;
+}
+#technologies__progress-bar>.progress-bar:nth-child(1) { z-index: 4 }
+#technologies__progress-bar>.progress-bar:nth-child(2) { z-index: 3 }
+#technologies__progress-bar>.progress-bar:nth-child(3) { z-index: 2 }
+#technologies__progress-bar>.progress-bar:nth-child(4) { z-index: 1 }
+
+#technologies__progress-bar>.progress-bar:first-child {
+    width: 0;
+}
+#technologies__progress-bar>.progress-bar.active,
+#technologies__progress-bar>.progress-bar.passed
+{
+    background-position-x: 100%;
+}
+#technologies__progress-bar>.progress-bar:hover>button,
+#technologies__progress-bar>.progress-bar.active>button {
+    color: rgb(255, 250, 28);
+}
+#technologies__progress-bar>.progress-bar.active>button {
+    font-weight: 500;
+}
+#technologies__progress-bar>.progress-bar.active>button:before,
+#technologies__progress-bar>.progress-bar.passed>button:before {
+    background-color: rgb(255, 250, 28);
+}
+
+#technologies__progress-bar>.progress-bar>button {
+    display: block;
+    position: absolute;
+    width: 100px;
+    right: -50px;
+    bottom: 0;
+    top: -60px;
+    border: none;
+    background-color: transparent;
+    color: #bfbfbf;
+    outline: none;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 300;
+}
+#technologies__progress-bar>.progress-bar>button:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 60px;
+    width: 30px;
+    height: 30px;
+    margin: auto;
+    border-radius: 50%;
+    background-color: #fff;
+    border: 4px solid rgb(255, 250, 28);
+}
+#technologies__progress-bar>.progress-bar>button:hover {
+    border-color: rgb(200, 200, 0);
+}
+
+@media (min-width: 1200px) {
+    #technologies .display-1 {
+        font-size: 105px;
+    }
+}
+@media (max-width: 1200px) {
+    #technologies .display-1 {
+        font-size: 60px;
+    }
+
+    #technologies__progress-bar>.progress-bar:before {
+        width: 25px;
+        height: 25px;
+    }
+    #technologies__progress-bar>div.progress-bar:nth-child(2):after,
+    #technologies__progress-bar>div.progress-bar:nth-child(4):after {
+        top: 20px;
+    }
+}
+
+@media (max-width: 767px) {
+    #technologies .display-1 {
+        font-size: 40px;
+    }
+    #technologies h2 {
+        font-size: 1.6rem;
+        padding-bottom: 12px;
+    }
+
+    #technologies .diagram {
+        opacity: 1!important;
+    }
+
+    #technologies__animation-container {
+        height: initial;
+    }
+    #technologies__animation-container.diagram {
+        display: block;
+    }
+    #technologies__progress-bar>.progress-bar>button {
+        font-size: 12px;
+    }
+
+    #technologies__animation-container .left {
+        min-height: 320px;
+    }
+    #technologies__animation-container .right {
+        height: 450px;
+    }
+    #technologies .technologies__actions {
+        z-index: 2;
+        bottom: 36px;
+        left: 0;
+        right: 0;
+        text-align: center;
+    }
+    #technologies .anim-step {
+        overflow: hidden;
+    }
+    #technologies .tech-logos {
+        overflow: hidden;
+        left: 24px;
+        right: 24px;
+    }
+}
+
+@media (max-width: 374px) {
+    #technologies-container>header {
+        margin-bottom: 0!important;
+    }
+    #technologies__progress-bar {
+        display: none;
+    }
+}
+
+#technologies .fadeIn {
+    animation: fadeIN .2s forwards;
+}
+
+#technologies .fadeOut {
+    animation: fadeOUT .2s forwards;
+}
+
+@keyframes fadeIN {
+    100% {
+        opacity: 1;
+    }
+}
+@keyframes fadeOUT {
+    100% {
+        opacity: 0;
+    }
+}

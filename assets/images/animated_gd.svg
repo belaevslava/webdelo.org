@@ -1,0 +1,211 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 2500 2100">
+            <defs>
+                <style>
+		            .clip {
+		                fill: none;
+		            }
+
+		            .green {
+		                clip-path: url(#green-clip-path);
+		            }
+		            
+		            .yellow {
+		                clip-path: url(#yellow-clip-path);
+		            }
+
+		            .blue {
+		                clip-path: url(#blue-clip-path);
+		            }
+               svg {
+  width: 100px;
+  animation-timing-function: cubic-bezier(0.19, 1, 0.22, 1);
+  transform-origin: center;
+}
+
+#colour .green path,
+#grey .green path {
+  transform-origin: center;
+  transform: translate3d(-1558.5px, 2699.40118px, 0);
+}
+#colour .yellow path,
+#grey .yellow path {
+  transform-origin: center;
+  transform: translate3d(-1560.10793px, -2704.79981px, 0);
+}
+#colour .blue path,
+#grey .blue path {
+  transform-origin: center;
+  transform: translate3d(3116.99965px, -0.00173px, 0);
+}
+#colour .green path,
+#colour .yellow path,
+#colour .blue path,
+#grey .green path,
+#grey .yellow path,
+#grey .blue path {
+  transition: all 0.2s cubic-bezier(0.165, 0.84, 0.44, 1);
+  animation-timing-function: cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+#grey .yellow path {
+  fill: gainsboro;
+  animation: grey-yellow 3s;
+}
+#grey .green path {
+  fill: #d2d2d2;
+  animation: grey-green 3s;
+}
+#grey .blue path {
+  fill: #e6e6e6;
+  animation: grey-blue 3s;
+}
+#grey path {
+  animation-iteration-count: 1 !important;
+  transform: none !important;
+}
+
+#colour .green path {
+  fill: #11a861;
+  animation: green 3s;
+}
+#colour .yellow path {
+  fill: #ffcf63;
+  animation: yellow 3s;
+}
+#colour .blue path {
+  fill: #3777e3;
+  animation: blue 3s;
+}
+#colour path {
+  animation-delay: 3s !important;
+  animation-iteration-count: infinite !important;
+}
+
+@keyframes green {
+  0% {
+    transform: translate3d(-1558.5px, 2699.40118px, 0);
+  }
+  33% {
+    transform: translate3d(-500px, 866.0254px, 0);
+  }
+  66% {
+    transform: translate3d(0, 0, 0);
+  }
+  100% {
+    transform: translate3d(1058.5px, -1833.37578px, 0);
+  }
+}
+@keyframes yellow {
+  0% {
+    transform: translate3d(-1560.10793px, -2704.79981px, 0);
+  }
+  13% {
+    transform: translate3d(-1560.10793px, -2704.79981px, 0);
+  }
+  46% {
+    transform: translate3d(-500.51586px, -867.7574px, 0);
+  }
+  66% {
+    transform: translate3d(0, 0, 0);
+  }
+  100% {
+    transform: translate3d(1059.59207px, 1837.04241px, 0);
+  }
+}
+@keyframes blue {
+  0% {
+    transform: translate3d(3116.99965px, -0.00173px, 0);
+  }
+  23% {
+    transform: translate3d(3116.99965px, -0.00173px, 0);
+  }
+  56% {
+    transform: translate3d(999.99989px, -0.00055px, 0);
+  }
+  66% {
+    transform: translate3d(0, 0, 0);
+  }
+  100% {
+    transform: translate3d(-2116.99976px, 0.00117px, 0);
+  }
+}
+@keyframes grey-green {
+  0% {
+    transform: translate3d(-1558.5px, 2699.40118px, 0);
+  }
+  33% {
+    transform: translate3d(-500px, 866.0254px, 0);
+  }
+}
+@keyframes grey-yellow {
+  0% {
+    transform: translate3d(-1560.10793px, -2704.79981px, 0);
+  }
+  13% {
+    transform: translate3d(-1560.10793px, -2704.79981px, 0);
+  }
+  46% {
+    transform: translate3d(-500.51586px, -867.7574px, 0);
+  }
+}
+@keyframes grey-blue {
+  0% {
+    transform: translate3d(3116.99965px, -0.00173px, 0);
+  }
+  23% {
+    transform: translate3d(3116.99965px, -0.00173px, 0);
+  }
+  56% {
+    transform: translate3d(999.99989px, -0.00055px, 0);
+  }
+}
+@keyframes logo {
+  0% {
+    transform: rotate(0deg) scale(1);
+    opacity: 1;
+  }
+  66% {
+    transform: rotate(0deg) scale(1);
+    opacity: 1;
+  }
+  100% {
+    transform: rotate(60deg) scale(0);
+  }
+}
+
+                </style>
+                <clipPath id="blue-clip-path">
+                    <path class="clip" d="M1000,3031.54889l416.63519-721.84056H3083.30763l-416.67336,721.84056Z"/>
+                </clipPath>
+                <clipPath id="yellow-clip-path">
+                    <path class="clip" d="M2249.99908,2309.70822h833.30854L2249.99908,866.0254h-833.3639Z"/>
+                </clipPath>
+                <clipPath id="green-clip-path">
+                    <path class="clip" d="M583.30766,2309.70822,1000,3031.54868l833.30849-1443.68113L1416.63519,866.0254Z"/>
+                </clipPath>
+            </defs>
+            <g transform="translate(-570 -700)">
+                <g id="grey">
+                    <g class="blue">
+                        <path d="M0,3031.54889l416.63519-721.84056H3083.30763l-416.67336,721.84056Z"/>
+                    </g>
+                    <g class="yellow">
+                        <path d="M2749.99908,3175.73363h833.30854L2249.99908,866.0254h-833.3639Z"/>
+                    </g>
+                    <g class="green">
+                        <path d="M583.30766,2309.70822,1000,3031.54868,2333.30849,721.84215,1916.63519,0Z"/>
+                    </g>
+                </g>
+                <g id="colour">
+                    <g class="blue">
+                        <path d="M0,3031.54889l416.63519-721.84056H3083.30763l-416.67336,721.84056Z"/>
+                    </g>
+                    <g class="yellow">
+                        <path d="M2749.99908,3175.73363h833.30854L2249.99908,866.0254h-833.3639Z"/>
+                    </g>
+                    <g class="green">
+                        <path d="M583.30766,2309.70822,1000,3031.54868,2333.30849,721.84215,1916.63519,0Z"/>
+                    </g>
+                </g>
+            </g>
+        </svg>

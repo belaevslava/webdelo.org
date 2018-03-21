@@ -1,0 +1,113 @@
+<svg class="loading" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+     width="240px" height="240px" viewBox="0 0 240 240" enable-background="new 0 0 240 240" xml:space="preserve">
+  <defs>
+    <pattern id="water" width=".25" height="1.1" patternContentUnits="objectBoundingBox">
+      <path fill="url(#bubbleLoaderGradient)" d="M0.25,1H0c0,0,0-0.659,0-0.916c0.083-0.103,0.158,0.134,0.25,0C0.25,0.127,0.25,1,0.25,1z"/>
+    </pattern>
+
+    <pattern id="water-text" width=".25" height="1.1" patternContentUnits="objectBoundingBox">
+      <path fill="#fff" d="M0.25,1H0c0,0,0-0.659,0-0.916c0.083-0.103,0.158,0.134,0.25,0C0.25,0.127,0.25,1,0.25,1z"/>
+    </pattern>
+
+    <linearGradient id="bubbleLoaderGradient" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0%"  stop-color="#e28975"/>
+      <stop offset="50%" stop-color="#d45869"/>
+    </linearGradient>
+    
+    <mask id="bubbleLoaderCircleMask">
+      <use x="0" y="0" xlink:href="#circle" opacity="1" fill="#fff"/>
+    </mask>
+
+    <pattern id="ldp-9b2805fe3f7b" x="0" y="0" width="197" height="200" patternUnits="userSpaceOnUse">
+        <circle cx="77.19596204166587" cy="215.9217111126943" r="8.723586952454603" fill="#E4646B" stroke="none" stroke-width="0" transform="translate(0 -148.233)">
+            <animateTransform attributeName="transform" type="translate" values="0 0;0 -200" keyTimes="0;1" dur="2.25s" begin="-4.45095089916959s" repeatCount="indefinite"></animateTransform>
+        </circle>
+        <circle cx="83.87797540736297" cy="170.92388939549608" r="8.724853662935566" fill="#D94666" stroke="none" stroke-width="0" transform="translate(0 -187.504)">
+            <animateTransform attributeName="transform" type="translate" values="0 0;0 -200" keyTimes="0;1" dur="0.75s" begin="-3.4864725707420936s" repeatCount="indefinite"></animateTransform>
+        </circle>
+        <circle cx="83.87797540736297" cy="370.9238893954961" r="8.724853662935566" fill="#D94666" stroke="none" stroke-width="0" transform="translate(0 -187.504)">
+            <animateTransform attributeName="transform" type="translate" values="0 0;0 -200" keyTimes="0;1" dur="0.75s" begin="-3.4864725707420936s" repeatCount="indefinite"></animateTransform>
+        </circle>
+        <circle cx="66.81540477331278" cy="166.5981351952406" r="9.014771572194352" fill="#E87A6A" stroke="none" stroke-width="0" transform="translate(0 -165.259)">
+            <animateTransform attributeName="transform" type="translate" values="0 0;0 -200" keyTimes="0;1" dur="0.75s" begin="-2.6530546785733233s" repeatCount="indefinite"></animateTransform>
+        </circle>
+        <circle cx="66.81540477331278" cy="366.5981351952406" r="9.014771572194352" fill="#E87A6A" stroke="none" stroke-width="0" transform="translate(0 -165.259)">
+            <animateTransform attributeName="transform" type="translate" values="0 0;0 -200" keyTimes="0;1" dur="0.75s" begin="-2.6530546785733233s" repeatCount="indefinite"></animateTransform>
+        </circle>
+        <circle cx="181.23621485524333" cy="52.08285311154225" r="8.969838357656588" fill="#E87A6A" stroke="none" stroke-width="0" transform="translate(0 -120.571)">
+            <animateTransform attributeName="transform" type="translate" values="0 0;0 -200" keyTimes="0;1" dur="2.25s" begin="-4.139754621295559s" repeatCount="indefinite"></animateTransform>
+        </circle>
+        <circle cx="181.23621485524333" cy="252.08285311154225" r="8.969838357656588" fill="#E87A6A" stroke="none" stroke-width="0" transform="translate(0 -120.571)">
+            <animateTransform attributeName="transform" type="translate" values="0 0;0 -200" keyTimes="0;1" dur="2.25s" begin="-4.139754621295559s" repeatCount="indefinite"></animateTransform>
+        </circle>
+        <circle cx="123.81436753955428" cy="29.436983318031764" r="3.3284498574907433" fill="#E87A6A" stroke="none" stroke-width="0" transform="translate(0 -8.52142)">
+            <animateTransform attributeName="transform" type="translate" values="0 0;0 -200" keyTimes="0;1" dur="1.5s" begin="-1.3472439503006675s" repeatCount="indefinite"></animateTransform>
+        </circle>
+        <circle cx="123.81436753955428" cy="229.43698331803176" r="3.3284498574907433" fill="#E87A6A" stroke="none" stroke-width="0" transform="translate(0 -8.52142)">
+            <animateTransform attributeName="transform" type="translate" values="0 0;0 -200" keyTimes="0;1" dur="1.5s" begin="-1.3472439503006675s" repeatCount="indefinite"></animateTransform>
+        </circle>
+        <circle cx="147.73731521125762" cy="143.37872327642378" r="9.963594080848612" fill="#D94666" stroke="none" stroke-width="0" transform="translate(0 -62.5847)">
+            <animateTransform attributeName="transform" type="translate" values="0 0;0 -200" keyTimes="0;1" dur="4.5s" begin="-4.191488593689704s" repeatCount="indefinite"></animateTransform>
+        </circle>
+        <circle cx="147.73731521125762" cy="343.3787232764238" r="9.963594080848612" fill="#D94666" stroke="none" stroke-width="0" transform="translate(0 -62.5847)">
+            <animateTransform attributeName="transform" type="translate" values="0 0;0 -200" keyTimes="0;1" dur="4.5s" begin="-4.191488593689704s" repeatCount="indefinite"></animateTransform>
+        </circle>
+    </pattern>
+    
+    <text id="text" x="120" y="120" text-anchor="middle" alignment-baseline="middle" font-size="60">30%</text>
+    
+    <mask id="text_mask">
+      <use x="0" y="0" xlink:href="#text" opacity="1" fill="#ffffff"/>
+    </mask>
+  </defs>
+ 
+      <!--<use x="0" y="0" xlink:href="#text" fill="#222"/>-->
+  <circle id="circle" cx="120" cy="120" r="120" fill="#fff" />
+  <rect class="water-fill" mask="url(#bubbleLoaderCircleMask)" fill="url(#water)" x="0" y="0" width="1600" height="300"/>
+  <rect mask="url(#bubbleLoaderCircleMask)" x="0" y="0" width="100%" height="100%" fill="url(#ldp-9b2805fe3f7b)" />
+
+  <text x="120" y="120" text-anchor="middle" alignment-baseline="middle" font-size="60" fill="#262626">30%</text>
+  <rect class="water-fill" mask="url(#text_mask)" fill="url(#water-text)" x="0" y="0" width="1600" height="300"/>
+
+  <style>
+    * {
+      font-family: 'Roboto', sans-serif;
+    }
+    .water-fill {
+      -webkit-animation: wave 0.7s infinite linear, fill-up 6s infinite ease-out alternate;
+              animation: wave 0.7s infinite linear, fill-up 6s infinite ease-out alternate;
+    }
+    @-webkit-keyframes wave {
+      0% {
+        x: -400px;
+      }
+      100% {
+        x: 0;
+      }
+    }
+    @keyframes wave {
+      0% {
+        x: -400px;
+      }
+      100% {
+        x: 0;
+      }
+    }
+    @-webkit-keyframes fill-up {
+      0% {
+        y: 240px;
+      }
+      100% {
+        y: -50px;
+      }
+    }
+    @keyframes fill-up {
+      0% {
+        y: 240px;
+      }
+      100% {
+        y: -50px;
+      }
+    }
+      </style>
+</svg>

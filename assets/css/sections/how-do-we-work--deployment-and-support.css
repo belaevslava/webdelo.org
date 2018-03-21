@@ -1,0 +1,100 @@
+.dropdown-item[href="#link-to--how-do-we-work--deployment-and-support"].active,
+.dropdown-item[href="#link-to--how-do-we-work--deployment-and-support"]:active,
+#how-do-we-work--deployment-and-support {
+    background: linear-gradient(235deg, #5a4099, #26c2d4);
+    background-size: 100% 100%;
+    background-position: 0% 51%;
+}
+
+#how-do-we-work--deployment-and-support .list-of-brands {
+    list-style: none;
+    padding-left: 0;
+    text-align: left;
+}
+#how-do-we-work--deployment-and-support .list-of-brands>li {
+    margin-bottom: 24px;
+    color: rgba(255,255,255,.6);
+}
+#how-do-we-work--deployment-and-support .list-of-brands>li span {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    width: 32px;
+    height: 32px;
+    margin-right: 12px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    background: #ffffff;
+}
+#how-do-we-work--deployment-and-support .list-of-brands>li span svg {
+    display: inline-block;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -10px;
+    margin-top: -10px;
+}
+#how-do-we-work--deployment-and-support .list-of-brands img {
+    max-width: 75px;
+    vertical-align: middle;
+    margin-right: 12px;
+}
+#how-do-we-work--deployment-and-support .state-status svg {
+    max-width: 75px;
+    vertical-align: middle;
+}
+
+#how-do-we-work--deployment-and-support .bubble-loader--image {
+    position: relative;
+}
+#how-do-we-work--deployment-and-support .bubble-loader .bubble-loader--status {
+    position: absolute;
+    display: block;
+    top: 120px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    font-size: 2.4em;
+    color: #333;
+}
+
+.coloration {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#dd7670+0,d45869+100 */
+    fill: #dd7670; /* Old browsers */
+    fill: -moz-linear-gradient(top, #dd7670 0%, #d45869 100%); /* FF3.6-15 */
+    fill: -webkit-linear-gradient(top, #dd7670 0%,#d45869 100%); /* Chrome10-25,Safari5.1-6 */
+    fill: linear-gradient(to bottom, #dd7670 0%,#d45869 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dd7670', endColorstr='#d45869',GradientType=0 ); /* IE6-9 */
+}
+
+.configuration-item {
+    display: none;
+}
+
+#how-do-we-work--deployment-and-support .lead {
+    line-height: 28px;
+    font-weight: 300;
+    color: #ffffff;
+}
+
+#how-do-we-work--deployment-and-support .configuration-item small {
+    display: inline-block;
+    font-weight: 100;
+}
+
+#how-do-we-work--deployment-and-support .bubble-loader figcaption {
+    font-size: 18px;
+    font-weight: 300;
+}
+
+#how-do-we-work--deployment-and-support svg #text,
+#how-do-we-work--deployment-and-support svg #text-black {
+    font-weight: 100!important;
+}
+
+@media (max-width: 425px) {
+    #how-do-we-work--deployment-and-support h2 {
+        font-size: 1.6rem;
+    }
+}

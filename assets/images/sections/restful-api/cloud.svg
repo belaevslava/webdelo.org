@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="294px" height="181px" viewBox="0 0 294 181" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 44.1 (41455) - http://www.bohemiancoding.com/sketch -->
+    <title>cloud</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M244.323387,177.375236 C270.199186,177.375236 291.175318,156.41483 291.175318,130.55913 C291.175318,108.348694 275.690896,89.7636873 254.924021,84.9618902 C254.499269,37.9672898 216.248408,0 169.116901,0 C136.758684,0 108.588434,17.897659 93.9671243,44.3239761 C89.5182948,42.4001974 84.6146581,41.3292278 79.459233,41.3292278 C60.8869999,41.3292278 45.5590949,55.1674019 43.212472,73.0854604 C19.0458853,77.8736579 0.82468154,99.1695205 0.82468154,124.723196 C0.82468154,153.802571 24.4162379,177.375236 53.5170841,177.375236 L244.323387,177.375236 Z" id="path-1"></path>
+    </defs>
+    <g id="pages" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="api---2" transform="translate(-558.000000, -475.000000)">
+            <g id="cloud" transform="translate(559.000000, 477.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="Mask" stroke-opacity="0.341145833" stroke="#FFFFFF" stroke-width="3" fill-opacity="0.0730865036" fill="#FFFFFF" fill-rule="nonzero" xlink:href="#path-1"></use>
+                <text id="api.vput.eu/v1/trans" mask="url(#mask-2)" font-family="GillSans-Light, Gill Sans" font-size="14" font-weight="300" fill="#FFFFFF">
+                    <tspan x="-39" y="-6">api.vput.eu/v1/transfers   GET   [ list of transfers for client ]   /App/Transfer/.../TransferController.php@index  </tspan>
+                    <tspan x="-39" y="10">api.vput.eu/v1/transfers/   POST   boolean     /App/Transfer/.../TransferController.php@store</tspan>
+                    <tspan x="-39" y="26">api.vput.eu/v1/transfers/aeroports   GET   [ list of transfers for client ]   /App/Transfer/.../TransferController.php@aeroports</tspan>
+                    <tspan x="-39" y="42">api.vput.eu/v1/transfers/cities   GET   [ list of transfers for client ]   /App/Transfer/.../TransferController.php@cities</tspan>
+                    <tspan x="-39" y="58">api.vput.eu/v1/transfers/{id}   PUT   boolean   /App/Transfer/.../TransferController.php@update</tspan>
+                    <tspan x="-39" y="74">api.vput.eu/v1/transfers/{id}/cancel   PUT   int   /App/Transfer/.../TransferController.php@cancel</tspan>
+                    <tspan x="-39" y="90">api.vput.eu/v1/transfers/price/{cityId}/{aeroportId}/{passengers}   GET   int  /App/Transfer/.../TransferController.php@price</tspan>
+                    <tspan x="-39" y="106">api.vput.eu/v1/bookings/transfers   GET  [ list of transfers for client and bookings ]   /App/Booking/.../TransferController.php@index</tspan>
+                    <tspan x="-39" y="122">api.vput.eu/v1/bookings/transfers/{id}/cancel   PUT  int   /App/Booking/.../TransferController.php@cancel</tspan>
+                    <tspan x="-39" y="138">api.vput.eu/v1/admin/transfers/statuses  GET [ list of transfers statuses ]  /App/Transfer/.../TransferAdminController.php@statuses</tspan>
+                    <tspan x="-39" y="154">api.vput.eu/v1/admin/transfers/carTypes	GET	    [ list of transfers car types ]   /App/Transfer/.../TransferAdminController.php@carTypes</tspan>
+                    <tspan x="-39" y="170">api.vput.eu/v1/admin/transfers/aeroports	GET	  [ list of transfers statuses ]   /App/Transfer/.../TransferAdminController.php@aeroports</tspan>
+                    <tspan x="-39" y="186">api.vput.eu/v1/admin/transfers/cities	GET  [ list of transfers car types ]   /App/Transfer/.../TransferAdminController.php@cities</tspan>
+                    <tspan x="-39" y="202"></tspan>
+                    <tspan x="-39" y="218"></tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

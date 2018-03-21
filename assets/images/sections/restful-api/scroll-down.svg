@@ -1,0 +1,38 @@
+<svg width="44" height="73" viewBox="0 0 44 73" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<style>
+@keyframes scrollDownAnimation {
+    0% {
+        transform: translate(0, 0px);
+    }
+    50% {
+        transform: translate(0, 10px);
+    }
+    100% {
+        transform: translate(0, 0px);
+    }
+}
+#scroll-down--arrow {
+    animation: scrollDownAnimation 1s ease infinite;
+}
+</style>
+<g id="Canvas" transform="translate(-445 -691)">
+<g id="Group 7">
+<g id="Rectangle 3">
+<mask id="mask0_outline_ins">
+<use xlink:href="#path0_fill" fill="white" transform="translate(445 691)"/>
+</mask>
+<g mask="url(#mask0_outline_ins)">
+<use xlink:href="#path1_stroke_2x" transform="translate(445 691)" fill="#FFFFFF"/>
+</g>
+</g>
+<g id="Line 3">
+    <use id="scroll-down--arrow-use" xlink:href="#scroll-down--arrow" transform="translate(467 709)" fill="#fff" />
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_fill" fill-rule="evenodd" d="M 0 22C 0 9.84974 9.84974 0 22 0L 22 0C 34.1503 0 44 9.84974 44 22L 44 51C 44 63.1503 34.1503 73 22 73L 22 73C 9.84974 73 0 63.1503 0 51L 0 22Z"/>
+<path id="path1_stroke_2x" d="M 43 22L 43 51L 45 51L 45 22L 43 22ZM 1 51L 1 22L -1 22L -1 51L 1 51ZM 22 -1C 9.29745 -1 -1 9.29745 -1 22L 1 22C 1 10.402 10.402 1 22 1L 22 -1ZM 22 1C 33.598 1 43 10.402 43 22L 45 22C 45 9.29745 34.7025 -1 22 -1L 22 1ZM 43 51C 43 62.598 33.598 72 22 72L 22 74C 34.7025 74 45 63.7025 45 51L 43 51ZM 22 72C 10.402 72 1 62.598 1 51L -1 51C -1 63.7025 9.29745 74 22 74L 22 72Z"/>
+<path id="scroll-down--arrow" d="M -0.707107 29.15C -0.316582 29.5406 0.316582 29.5406 0.707107 29.15L 7.07107 22.7861C 7.46159 22.3955 7.46159 21.7624 7.07107 21.3719C 6.68054 20.9813 6.04738 20.9813 5.65685 21.3719L 0 27.0287L -5.65685 21.3719C -6.04738 20.9813 -6.68054 20.9813 -7.07107 21.3719C -7.46159 21.7624 -7.46159 22.3955 -7.07107 22.7861L -0.707107 29.15ZM 1 0L 1 -1L -1 -1L -1 0L 1 0ZM 1 28.4429L 1 0L -1 0L -1 28.4429L 1 28.4429Z"/>
+</defs>
+</svg>

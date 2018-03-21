@@ -1,0 +1,32 @@
+{
+  "name": "presentation.webdelo.org",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@fancyapps/fancybox": "^3.2.5",
+    "bodymovin": "^4.13.0",
+    "bootstrap": "^4.0.0-beta.2",
+    "bowser": "^1.8.1",
+    "countup.js": "^1.9.2",
+    "fullpage.js": "^2.9.6",
+    "gsap": "^1.20.3",
+    "jquery": "^3.2.1",
+    "moment": "^2.20.1",
+    "particles.js": "^2.0.0",
+    "snapsvg": "^0.5.1",
+    "typeit": "^4.4.1"
+  },
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-autoprefixer": "^3.0.4",
+    "grunt-contrib-cssmin": "^2.2.1",
+    "grunt-contrib-uglify": "^3.1.0"
+  }
+}

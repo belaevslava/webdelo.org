@@ -1,0 +1,184 @@
+#who-we-are:before {
+    content: "";
+    display: block;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-image: url(../../images/sections/who-we-are/our_team.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+
+#list-of-worker-groups {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    right: 24px;
+    top: 0;
+    bottom: 0;
+    text-align: center;
+    list-style: none;
+    z-index: 2;
+    opacity: 0;
+    transition: all .7s ease;
+}
+.section.active.fp-completely #list-of-worker-groups {
+    opacity: 1;
+}
+#list-of-worker-groups figcaption {
+    text-shadow: rgba(0,0,0,.6) 1px 1px 6px;
+    font-weight: 300;
+}
+#list-of-worker-groups a {
+    outline: none;
+}
+#list-of-worker-groups img {
+    width: 90px;
+    border-radius: 50%;
+    border: #fff 3px solid;
+    box-shadow: rgba(0,0,0,.24) 0 2px 12px;
+    filter: brightness(95%);
+    transition: all .4s ease;
+}
+#list-of-worker-groups img:hover {
+    border-color: #FE6768;
+    cursor: pointer;
+    filter: brightness(100%);
+}
+
+#who-we-are .lead {
+    font-size: 20px;
+}
+
+#who-we-are .display-3 {
+    font-weight: 900;
+}
+
+@media (min-width: 768px) {
+    #who-we-are {
+        min-height: 100vh;
+    }
+    #who-we-are>footer {
+        position: relative;
+    }
+    #who-we-are>footer:before {
+        content: "";
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: -50px;
+        bottom: 0;
+        background: url(../../images/sections/who-we-are/wave-bg.svg);
+        background-size: cover;
+        animation: contactAnimateFooter 6s infinite;
+    }
+
+    #who-we-are header {
+        display: none;
+    }
+}
+
+@media (max-width: 767px) {
+    #who-we-are .lead {
+        padding-top: 0!important;
+    }
+    #who-we-are:before {
+        filter: brightness(30%);
+    }
+    #who-we-are--about {
+        display: none;
+    }
+    #list-of-worker-groups {
+        position: relative;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        opacity: 1;
+        margin-bottom: 0;
+    }
+    #list-of-worker-groups>li {
+        min-width: 50%;
+        margin-bottom: 12px;
+    }
+}
+
+#who-we-are .team-bg {
+    display: block;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-size: cover;
+    background-position: center center;
+    z-index: 1;
+}
+
+#who-we-are .team-bg  .team-header {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 115px;
+}
+#who-we-are .team-bg .team-header:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: .9;
+    background-image: linear-gradient(to right,#fd7e31,#fd4885)!important;
+    background-color: #fd7e31;
+    border-color: #fd4885!important;
+    background-size: 200%;
+    background-position: 50% 50%;
+    z-index: -1;
+}
+
+#who-we-are .team-bg  .team-header h1 {
+    font-size: 64px;
+    line-height: 115px;
+    padding-left: 80px;
+}
+
+#who-we-are #list-of-worker-groups li {
+    transition: 50ms;
+    position: relative;
+}
+
+#who-we-are #list-of-worker-groups li.active figure {
+    opacity: 0;
+}
+#who-we-are #list-of-worker-groups li .team-close {
+    position: absolute;
+    top: 0;
+    background: #ffffff url('/assets/images/sections/who-we-are/close.svg') 50% 50% no-repeat;
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+    display: none;
+    cursor: pointer;
+}
+#who-we-are #list-of-worker-groups li .team-close:hover {
+    background-color: #f7f7f7;
+    transform: rotate(90deg);
+    transition: 300ms;
+}
+#who-we-are #list-of-worker-groups li.active .team-close {
+    display: block;
+}
+#who-we-are #list-of-worker-groups li.disabled,
+#who-we-are #list-of-worker-groups li.disabled img {
+    opacity: 0;
+    cursor: default;
+}

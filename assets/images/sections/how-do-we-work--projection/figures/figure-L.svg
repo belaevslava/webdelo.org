@@ -1,0 +1,23 @@
+<svg width="43" height="65" viewBox="0 0 43 65" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>figure-L</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(163 -738)">
+<g id="figure-L">
+<g id="Vector">
+<use xlink:href="#path0_fill" transform="translate(-163 738.822)" fill="#DBFED2"/>
+</g>
+<g id="Vector">
+<use xlink:href="#path0_fill" transform="translate(-163 760.778)" fill="#DBFED2"/>
+</g>
+<g id="Vector">
+<use xlink:href="#path0_fill" transform="translate(-163 782.733)" fill="#DBFED2"/>
+</g>
+<g id="Vector">
+<use xlink:href="#path0_fill" transform="translate(-141.078 782.733)" fill="#DBFED2"/>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_fill" d="M 10.1176 20.2667C 15.7055 20.2667 20.2353 15.7298 20.2353 10.1333C 20.2353 4.53685 15.7055 0 10.1176 0C 4.52982 0 0 4.53685 0 10.1333C 0 15.7298 4.52982 20.2667 10.1176 20.2667Z"/>
+</defs>
+</svg>

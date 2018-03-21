@@ -1,0 +1,205 @@
+.dropdown-item[href="#link-to--how-do-we-work--evaluation"].active,
+.dropdown-item[href="#link-to--how-do-we-work--evaluation"]:active,
+#how-do-we-work--evaluation {
+    background: linear-gradient(45deg, #48BAD1, #8D4CF3);
+    background-size: 100% 100%;
+    background-position: 0% 51%;
+}
+#how-do-we-work--evaluation {
+    position: relative;
+    overflow: hidden;
+    height: 100vh;
+}
+
+#how-do-we-work--evaluation h1 {
+    padding-bottom: 23px;
+    margin-bottom: 0 !important;
+}
+
+#how-do-we-work--evaluation>.container {
+    z-index: 1;
+}
+#common-evaluation--diagram {
+    position: relative;
+}
+#click-to-start--common-evaluation {
+    display: block;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    min-height: 240px;
+    background-image: url(../../images/sections/how-do-we-work--evaluation/click-to-start.svg);
+    background-size: 100% auto;
+    background-position: top center;
+    background-repeat: no-repeat;
+}
+#click-to-start--common-evaluation:hover {
+    filter: brightness(110%);
+}
+#totalHours {
+    transform: translateX(10px);
+}
+
+@media (max-width: 1600px) {
+    #click-to-start--common-evaluation {
+        left: -160px;
+        right: -160px;
+    }
+}
+
+@media (max-width: 1200px) {
+    #common-evaluation {
+        transform: scale(1.3);
+        min-height: 320px;
+    }
+
+    #how-do-we-work--evaluation .gd-btn-container {
+        bottom: initial;
+        top: 100px;
+    }
+}
+@media (max-width: 992px) {
+    #common-evaluation {
+        min-height: 220px;
+    }
+}
+@media (max-width: 767px) {
+    #common-evaluation {
+        min-height: 280vw;
+        transform: scale(1);
+    }
+    #common-evaluation #your-idea-container {
+        transform: translate(430px, -1100px) scale(3.5);
+    }
+    #common-evaluation .loading-bar {
+        transform: translate(525px, -750px) scale(3.5);
+    }
+    #common-evaluation #stage2 {
+        transform: translate(-1150px, -350px) scale(3);
+    }
+    #common-evaluation .loading-bar.loading-bar2 {
+        transform: translate(525px, 650px) scale(3.5);
+    }
+    #common-evaluation #stage3 {
+        transform: translate(125px, 900px) scale(3.5);
+    }
+    #common-evaluation .loading-bar,
+    #common-evaluation #stage2,
+    #common-evaluation #stage3 {
+        opacity: .6;
+    }
+
+    #common-evaluation #all-elements {
+        transform: translateY(-120px);
+    }
+
+    #common-evaluation .loading-bar.loading-bar-1 {
+        transform: translate(525px, -470px) scale(3.5);
+    }
+
+    #Pull-down-and-start {
+        font-size: 15px;
+    }
+
+    #common-evaluation.invisible {
+        min-height: 240px;
+    }
+    #click-to-start--common-evaluation {
+        background-size: cover;
+        left: -50px;
+        right: -50px;
+    }
+}
+
+@media (max-width: 426px) {
+    #common-evaluation {
+        min-height: 940px;
+    }
+}
+
+@media (max-width: 376px) {
+    #common-evaluation {
+        min-height: 850px;
+    }
+}
+
+#common-evaluation #choose-your-mode {
+    animation: halfOpacityAnimation 2s ease infinite;
+}
+
+#how-do-we-work--evaluation.active #how-do-we-work--evaluation_bg-animation {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    overflow: hidden;
+}
+#how-do-we-work--evaluation.active #how-do-we-work--evaluation_bg-animation>div {
+    position: absolute;
+    display: block;
+    width: 0;
+    height: 0;
+    background-color: rgba(255,255,255,.06);
+    border-radius: 50%;
+    opacity: 0;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    animation: WDCircleAnimation 6s linear infinite;
+}
+#how-do-we-work--evaluation.active #how-do-we-work--evaluation_bg-animation>div:nth-child(2) {
+    animation-delay: .5s;
+}
+#how-do-we-work--evaluation.active #how-do-we-work--evaluation_bg-animation>div:nth-child(3) {
+    animation-delay: 1s;
+}
+#how-do-we-work--evaluation.active #how-do-we-work--evaluation_bg-animation>div:nth-child(4) {
+    animation-delay: 1.5s;
+}
+@-webkit-keyframes WDCircleAnimation {
+    50% {
+        width: 0;
+        height: 0;
+        opacity: 1;
+    }
+    100% {
+        width: 100vw;
+        height: 100vw;
+        opacity: 0;
+    }
+}
+@keyframes WDCircleAnimation {
+    50% {
+        width: 0;
+        height: 0;
+        opacity: 1;
+    }
+    100% {
+        width: 100vw;
+        height: 100vw;
+        opacity: 0;
+    }
+}
+
+#lamp-toggler {
+    display: block;
+    width: 20px;
+    cursor: pointer;
+}
+
+#how-do-we-work--evaluation h3 {
+    font-size: 30px;
+}
+
+#common-evaluation {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}

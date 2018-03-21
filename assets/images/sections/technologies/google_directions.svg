@@ -1,0 +1,428 @@
+<svg width="78" height="76" viewBox="0 0 78 76" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>google_directions</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(-762 -481)">
+<g id="google_directions">
+<g id="google_directions_logo">
+<g id="icon_directionsapi">
+<g id="Clipped">
+<mask id="mask0_outline" mask-type="alpha">
+<g id="SVGID_1_">
+<use xlink:href="#path0_fill" transform="translate(782.21 481.084)" fill="#FFFFFF"/>
+</g>
+</mask>
+<g id="Clipped" mask="url(#mask0_outline)">
+<mask id="mask1_outline" mask-type="alpha">
+<g id="SVGID_3_">
+<use xlink:href="#path1_fill" transform="translate(739.786 -222.036)" fill="#FFFFFF"/>
+</g>
+</mask>
+<g id="Clipped" mask="url(#mask1_outline)">
+<mask id="mask2_outline" mask-type="alpha">
+<g id="SVGID_5_">
+<use xlink:href="#path2_fill" transform="translate(782.798 489.045)" fill="#FFFFFF"/>
+</g>
+</mask>
+<g id="Clipped" mask="url(#mask2_outline)">
+<mask id="mask3_outline" mask-type="alpha">
+<g id="SVGID_7_">
+<use xlink:href="#path0_fill" transform="translate(782.21 481.084)" fill="#FFFFFF"/>
+</g>
+</mask>
+<g id="Rectangle-path" mask="url(#mask3_outline)">
+<use xlink:href="#path3_fill" transform="translate(779.519 485.777)" fill="#FFDE44"/>
+</g>
+</g>
+</g>
+</g>
+</g>
+<g id="Clipped">
+<mask id="mask4_outline" mask-type="alpha">
+<g id="SVGID_1_">
+<use xlink:href="#path0_fill" transform="translate(782.21 481.084)" fill="#FFFFFF"/>
+</g>
+</mask>
+<g id="Clipped" mask="url(#mask4_outline)">
+<mask id="mask5_outline" mask-type="alpha">
+<g id="SVGID_9_">
+<use xlink:href="#path1_fill" transform="translate(739.786 -222.036)" fill="#FFFFFF"/>
+</g>
+</mask>
+<g id="Clipped" mask="url(#mask5_outline)">
+<mask id="mask6_outline" mask-type="alpha">
+<g id="SVGID_11_">
+<use xlink:href="#path4_fill" transform="translate(807.353 486.992)" fill="#FFFFFF"/>
+</g>
+</mask>
+<g id="Clipped" mask="url(#mask6_outline)">
+<mask id="mask7_outline" mask-type="alpha">
+<g id="SVGID_13_">
+<use xlink:href="#path0_fill" transform="translate(782.21 481.084)" fill="#FFFFFF"/>
+</g>
+</mask>
+<g id="Clipped" mask="url(#mask7_outline)">
+<mask id="mask8_outline" mask-type="alpha">
+<g id="SVGID_15_">
+<use xlink:href="#path5_fill" transform="translate(807.059 488.878)" fill="#FFFFFF"/>
+</g>
+</mask>
+<g id="Clipped" mask="url(#mask8_outline)">
+<mask id="mask9_outline" mask-type="alpha">
+<g id="SVGID_17_">
+<use xlink:href="#path6_fill" transform="translate(782.966 489.213)" fill="#FFFFFF"/>
+</g>
+</mask>
+<g id="Clipped" mask="url(#mask9_outline)">
+<mask id="mask10_outline" mask-type="alpha">
+<g id="SVGID_19_">
+<use xlink:href="#path7_fill" transform="translate(807.059 486.95)" fill="#FFFFFF"/>
+</g>
+</mask>
+<g id="Rectangle-path" mask="url(#mask10_outline)">
+<use xlink:href="#path3_fill" transform="translate(779.688 485.945)" fill="#3F8CF4"/>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+<g id="Clipped">
+<mask id="mask11_outline" mask-type="alpha">
+<g id="SVGID_1_">
+<use xlink:href="#path0_fill" transform="translate(782.21 481.084)" fill="#FFFFFF"/>
+</g>
+</mask>
+<g id="Clipped" mask="url(#mask11_outline)">
+<mask id="mask12_outline" mask-type="alpha">
+<g id="SVGID_21_">
+<use xlink:href="#path1_fill" transform="translate(739.786 -222.036)" fill="#FFFFFF"/>
+</g>
+</mask>
+<g id="Clipped" mask="url(#mask12_outline)">
+<mask id="mask13_outline" mask-type="alpha">
+<g id="SVGID_23_">
+<use xlink:href="#path8_fill" transform="translate(784.691 515.99)" fill="#FFFFFF"/>
+</g>
+</mask>
+<g id="Clipped" mask="url(#mask13_outline)">
+<mask id="mask14_outline" mask-type="alpha">
+<g id="SVGID_25_">
+<use xlink:href="#path0_fill" transform="translate(782.21 481.084)" fill="#FFFFFF"/>
+</g>
+</mask>
+<g id="Clipped" mask="url(#mask14_outline)">
+<mask id="mask15_outline" mask-type="alpha">
+<g id="SVGID_27_">
+<use xlink:href="#path9_fill" transform="translate(784.186 515.571)" fill="#FFFFFF"/>
+</g>
+</mask>
+<g id="Clipped" mask="url(#mask15_outline)">
+<mask id="mask16_outline" mask-type="alpha">
+<g id="SVGID_29_">
+<use xlink:href="#path10_fill" transform="translate(782.798 489.045)" fill="#FFFFFF"/>
+</g>
+</mask>
+<g id="Clipped" mask="url(#mask16_outline)">
+<mask id="mask17_outline" mask-type="alpha">
+<g id="SVGID_31_">
+<use xlink:href="#path9_fill" transform="translate(784.186 515.571)" fill="#FFFFFF"/>
+</g>
+</mask>
+<g id="Rectangle-path" mask="url(#mask17_outline)">
+<use xlink:href="#path3_fill" transform="translate(779.561 485.777)" fill="#3F8CF4"/>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+<g id="Clipped">
+<mask id="mask18_outline" mask-type="alpha">
+<g id="SVGID_1_">
+<use xlink:href="#path0_fill" transform="translate(782.21 481.084)" fill="#FFFFFF"/>
+</g>
+</mask>
+<g id="Clipped" mask="url(#mask18_outline)">
+<mask id="mask19_outline" mask-type="alpha">
+<g id="SVGID_33_">
+<use xlink:href="#path1_fill" transform="translate(739.786 -222.036)" fill="#FFFFFF"/>
+</g>
+</mask>
+<g id="Clipped" mask="url(#mask19_outline)">
+<mask id="mask20_outline" mask-type="alpha">
+<g id="SVGID_35_">
+<use xlink:href="#path11_fill" transform="translate(781.369 485.735)" fill="#FFFFFF"/>
+</g>
+</mask>
+<g id="Clipped" mask="url(#mask20_outline)">
+<mask id="mask21_outline" mask-type="alpha">
+<g id="SVGID_37_">
+<use xlink:href="#path0_fill" transform="translate(782.21 481.084)" fill="#FFFFFF"/>
+</g>
+</mask>
+<g id="Clipped" mask="url(#mask21_outline)">
+<mask id="mask22_outline" mask-type="alpha">
+<g id="SVGID_39_">
+<use xlink:href="#path12_fill" transform="translate(782.21 488.878)" fill="#FFFFFF"/>
+</g>
+</mask>
+<g id="Clipped" mask="url(#mask22_outline)">
+<mask id="mask23_outline" mask-type="alpha">
+<g id="SVGID_41_">
+<use xlink:href="#path2_fill" transform="translate(782.798 489.045)" fill="#FFFFFF"/>
+</g>
+</mask>
+<g id="Clipped" mask="url(#mask23_outline)">
+<mask id="mask24_outline" mask-type="alpha">
+<g id="SVGID_43_">
+<use xlink:href="#path13_fill" transform="translate(782.21 485.651)" fill="#FFFFFF"/>
+</g>
+</mask>
+<g id="Rectangle-path" mask="url(#mask24_outline)">
+<use xlink:href="#path3_fill" transform="translate(779.561 485.777)" fill="#20A362"/>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+<g id="Clipped">
+<mask id="mask25_outline" mask-type="alpha">
+<g id="SVGID_1_">
+<use xlink:href="#path0_fill" transform="translate(782.21 481.084)" fill="#FFFFFF"/>
+</g>
+</mask>
+<g id="Clipped" mask="url(#mask25_outline)">
+<mask id="mask26_outline" mask-type="alpha">
+<g id="SVGID_45_">
+<use xlink:href="#path1_fill" transform="translate(739.786 -222.036)" fill="#FFFFFF"/>
+</g>
+</mask>
+<g id="Clipped" mask="url(#mask26_outline)">
+<mask id="mask27_outline" mask-type="alpha">
+<g id="SVGID_47_">
+<use xlink:href="#path14_fill" transform="translate(807.353 503.503)" fill="#FFFFFF"/>
+</g>
+</mask>
+<g id="Clipped" mask="url(#mask27_outline)">
+<mask id="mask28_outline" mask-type="alpha">
+<g id="SVGID_49_">
+<use xlink:href="#path0_fill" transform="translate(782.21 481.084)" fill="#FFFFFF"/>
+</g>
+</mask>
+<g id="Clipped" mask="url(#mask28_outline)">
+<mask id="mask29_outline" mask-type="alpha">
+<g id="SVGID_51_">
+<use xlink:href="#path15_fill" transform="translate(807.059 503.209)" fill="#FFFFFF"/>
+</g>
+</mask>
+<g id="Clipped" mask="url(#mask29_outline)">
+<mask id="mask30_outline" mask-type="alpha">
+<g id="SVGID_53_">
+<use xlink:href="#path16_fill" transform="translate(782.797 488.961)" fill="#FFFFFF"/>
+</g>
+</mask>
+<g id="Clipped" mask="url(#mask30_outline)">
+<mask id="mask31_outline" mask-type="alpha">
+<g id="SVGID_55_">
+<use xlink:href="#path15_fill" transform="translate(807.059 503.209)" fill="#FFFFFF"/>
+</g>
+</mask>
+<g id="Rectangle-path" mask="url(#mask31_outline)">
+<use xlink:href="#path3_fill" transform="translate(779.519 485.693)" fill="#20A362"/>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+<g id="Clipped">
+<mask id="mask32_outline" mask-type="alpha">
+<g id="SVGID_1_">
+<use xlink:href="#path0_fill" transform="translate(782.21 481.084)" fill="#FFFFFF"/>
+</g>
+</mask>
+<g id="Clipped" mask="url(#mask32_outline)">
+<mask id="mask33_outline" mask-type="alpha">
+<g id="SVGID_57_">
+<use xlink:href="#path1_fill" transform="translate(739.786 -222.036)" fill="#FFFFFF"/>
+</g>
+</mask>
+<g id="Clipped" mask="url(#mask33_outline)">
+<mask id="mask34_outline" mask-type="alpha">
+<g id="SVGID_59_">
+<use xlink:href="#path17_fill" transform="translate(776.702 477.438)" fill="#FFFFFF"/>
+</g>
+</mask>
+<g id="Clipped" mask="url(#mask34_outline)">
+<mask id="mask35_outline" mask-type="alpha">
+<g id="SVGID_61_">
+<use xlink:href="#path0_fill" transform="translate(782.21 481.084)" fill="#FFFFFF"/>
+</g>
+</mask>
+<g id="Clipped" mask="url(#mask35_outline)">
+<mask id="mask36_outline" mask-type="alpha">
+<g id="SVGID_63_">
+<use xlink:href="#path18_fill" transform="translate(782.21 488.878)" fill="#FFFFFF"/>
+</g>
+</mask>
+<g id="Clipped" mask="url(#mask36_outline)">
+<mask id="mask37_outline" mask-type="alpha">
+<g id="SVGID_65_">
+<use xlink:href="#path19_fill" transform="translate(782.84 489.045)" fill="#FFFFFF"/>
+</g>
+</mask>
+<g id="Clipped" mask="url(#mask37_outline)">
+<mask id="mask38_outline" mask-type="alpha">
+<g id="SVGID_67_">
+<use xlink:href="#path0_fill" transform="translate(782.21 481.084)" fill="#FFFFFF"/>
+</g>
+</mask>
+<g id="Rectangle-path" mask="url(#mask38_outline)">
+<use xlink:href="#path3_fill" transform="translate(779.603 485.819)" fill="#EEEEEE"/>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+<g id="Clipped">
+<mask id="mask39_outline" mask-type="alpha">
+<g id="SVGID_1_">
+<use xlink:href="#path0_fill" transform="translate(782.21 481.084)" fill="#FFFFFF"/>
+</g>
+</mask>
+<g id="Clipped" mask="url(#mask39_outline)">
+<mask id="mask40_outline" mask-type="alpha">
+<g id="SVGID_69_">
+<use xlink:href="#path1_fill" transform="translate(739.786 -222.036)" fill="#FFFFFF"/>
+</g>
+</mask>
+<g id="Clipped" mask="url(#mask40_outline)">
+<mask id="mask41_outline" mask-type="alpha">
+<g id="SVGID_71_">
+<use xlink:href="#path0_fill" transform="translate(782.21 481.084)" fill="#FFFFFF"/>
+</g>
+</mask>
+<g id="Shape" mask="url(#mask41_outline)">
+<use xlink:href="#path20_stroke" transform="translate(805.461 486.741)" fill="#DC493C"/>
+</g>
+</g>
+</g>
+</g>
+<g id="Clipped">
+<mask id="mask42_outline" mask-type="alpha">
+<g id="SVGID_1_">
+<use xlink:href="#path0_fill" transform="translate(782.21 481.084)" fill="#FFFFFF"/>
+</g>
+</mask>
+<g id="Clipped" mask="url(#mask42_outline)">
+<mask id="mask43_outline" mask-type="alpha">
+<g id="SVGID_73_">
+<use xlink:href="#path1_fill" transform="translate(739.786 -222.036)" fill="#FFFFFF"/>
+</g>
+</mask>
+<g id="Clipped" mask="url(#mask43_outline)">
+<mask id="mask44_outline" mask-type="alpha">
+<g id="SVGID_75_">
+<use xlink:href="#path21_fill" transform="translate(798.902 481.084)" fill="#FFFFFF"/>
+</g>
+</mask>
+<g id="Clipped" mask="url(#mask44_outline)">
+<mask id="mask45_outline" mask-type="alpha">
+<g id="SVGID_77_">
+<use xlink:href="#path0_fill" transform="translate(782.21 481.084)" fill="#FFFFFF"/>
+</g>
+</mask>
+<g id="Rectangle-path" mask="url(#mask45_outline)">
+<use xlink:href="#path22_fill" transform="translate(795.623 477.857)" fill="#DC4A3D"/>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+<g id="Clipped">
+<mask id="mask46_outline" mask-type="alpha">
+<g id="SVGID_81_">
+<use xlink:href="#path23_fill" transform="translate(788.938 481.084)" fill="#FFFFFF"/>
+</g>
+</mask>
+<g id="Clipped" mask="url(#mask46_outline)">
+<mask id="mask47_outline" mask-type="alpha">
+<g id="SVGID_83_">
+<use xlink:href="#path0_fill" transform="translate(782.21 481.084)" fill="#FFFFFF"/>
+</g>
+</mask>
+<g id="Clipped" mask="url(#mask47_outline)">
+<mask id="mask48_outline" mask-type="alpha">
+<g id="SVGID_85_">
+<use xlink:href="#path24_fill" transform="translate(788.769 488.878)" fill="#FFFFFF"/>
+</g>
+</mask>
+<g id="Clipped" mask="url(#mask48_outline)">
+<mask id="mask49_outline" mask-type="alpha">
+<g id="SVGID_87_">
+<use xlink:href="#path2_fill" transform="translate(782.798 489.045)" fill="#FFFFFF"/>
+</g>
+</mask>
+<g id="Clipped" mask="url(#mask49_outline)">
+<mask id="mask50_outline" mask-type="alpha">
+<g id="SVGID_89_">
+<use xlink:href="#path25_fill" transform="translate(788.769 481.084)" fill="#FFFFFF"/>
+</g>
+</mask>
+<g id="Rectangle-path" mask="url(#mask50_outline)">
+<use xlink:href="#path3_fill" transform="translate(779.519 485.777)" fill="#DC4B3E"/>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+<g id="google_directions_label">
+<use xlink:href="#path26_fill" transform="translate(761 539)" fill="#FFFFFF"/>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_fill" fill-rule="evenodd" d="M 0 0L 36.5795 0L 36.5795 43.6229L 0 43.6229L 0 0Z"/>
+<path id="path1_fill" fill-rule="evenodd" d="M 0 0L 892.289 0L 892.289 3402.25L 0 3402.25L 0 0Z"/>
+<path id="path2_fill" fill-rule="evenodd" d="M 17.9961 35.4521C 8.15749 35.5359 0.0847592 27.6997 0.000668275 17.894C -0.0834226 8.08828 7.77908 0.0844756 17.6177 0.000666039C 27.4564 -0.0831435 35.487 7.75305 35.5711 17.5588C 35.6973 27.3645 27.7927 35.3683 17.9961 35.4521Z"/>
+<path id="path3_fill" d="M 0 0L 42.1295 0L 42.1295 41.9467L 0 41.9467L 0 0Z"/>
+<path id="path4_fill" fill-rule="evenodd" d="M 0 0L 0 14.2057L 12.5716 14.2057L 0 0Z"/>
+<path id="path5_fill" fill-rule="evenodd" d="M 0 0L 11.7727 0L 11.7727 12.3619L 0 12.3619L 0 0Z"/>
+<path id="path6_fill" fill-rule="evenodd" d="M 17.9541 35.4521C 8.11544 35.5359 0.0847592 27.6997 0.000668275 17.894C -0.0834226 8.08828 7.77908 0.0844756 17.6177 0.000666039C 27.4564 -0.0831435 35.487 7.75305 35.5711 17.5588C 35.6552 27.3645 27.7927 35.3264 17.9541 35.4521Z"/>
+<path id="path7_fill" fill-rule="evenodd" d="M 0 0L 11.7727 0L 11.7727 14.3314L 0 14.3314L 0 0Z"/>
+<path id="path8_fill" fill-rule="evenodd" d="M 20.2659 0L 0 0L 4.54091 6.62095C 4.54091 6.62095 15.4727 11.9429 15.5989 11.9429C 15.725 11.901 20.2659 8.00381 20.2659 8.00381L 20.2659 0Z"/>
+<path id="path9_fill" fill-rule="evenodd" d="M 0 0L 20.8966 0L 20.8966 9.13524L 0 9.13524L 0 0Z"/>
+<path id="path10_fill" fill-rule="evenodd" d="M 17.9961 35.4521C 8.15749 35.5359 0.126805 27.6578 0.000668275 17.894C -0.0834226 8.08828 7.77908 0.0844756 17.6177 0.000666039C 27.4564 -0.0831435 35.487 7.75305 35.5711 17.5588C 35.6973 27.3226 27.8348 35.3264 17.9961 35.4521Z"/>
+<path id="path11_fill" fill-rule="evenodd" d="M 13.4545 4.14857L 13.4545 15.4629L 0 15.4629L 1.93409 7.75238L 5.76023 0L 9.50227 0.209524L 12.3193 1.84381L 13.4545 4.14857Z"/>
+<path id="path12_fill" fill-rule="evenodd" d="M 0 0L 13.0761 0L 13.0761 12.3619L 0 12.3619L 0 0Z"/>
+<path id="path13_fill" fill-rule="evenodd" d="M 0 0L 13.0761 0L 13.0761 15.6305L 0 15.6305L 0 0Z"/>
+<path id="path14_fill" fill-rule="evenodd" d="M 0 0L 13.5386 0L 13.5386 9.97333L 0 9.97333"/>
+<path id="path15_fill" fill-rule="evenodd" d="M 0 0L 11.7727 0L 11.7727 10.4343L 0 10.4343L 0 0Z"/>
+<path id="path16_fill" fill-rule="evenodd" d="M 17.9549 35.4521C 8.11626 35.5359 0.0855798 27.6578 0.00148887 17.894C -0.124647 8.08828 7.7799 0.0844756 17.6185 0.000666039C 27.4572 -0.0831435 35.4879 7.75305 35.5719 17.5588C 35.6981 27.3226 27.7935 35.3264 17.9549 35.4521Z"/>
+<path id="path17_fill" fill-rule="evenodd" d="M 47.8898 38.5524L 47.8898 36.1638L 30.6511 36.1638L 30.6511 26.1486L 47.4693 26.1486L 47.4693 23.76L 30.6511 23.76L 30.6511 10.5181L 28.2545 10.5181L 28.2545 23.76L 20.5182 23.76L 20.5182 0L 18.1216 0L 18.1216 23.76L 2.01818 23.76L 2.01818 26.1486L 28.2545 26.1486L 28.2545 36.1638L 0 36.1638L 0 38.5524L 28.2545 38.5524L 28.2545 48.7771L 30.6511 48.7771L 30.6511 38.5524L 47.8898 38.5524Z"/>
+<path id="path18_fill" fill-rule="evenodd" d="M 0 0L 36.5795 0L 36.5795 35.7867L 0 35.7867L 0 0Z"/>
+<path id="path19_fill" fill-rule="evenodd" d="M 17.9961 35.4521C 8.15749 35.5778 0.126805 27.6997 0.000668275 17.894C -0.0834226 8.08828 7.77908 0.0844756 17.6177 0.000666039C 27.4564 -0.0831435 35.487 7.75305 35.5711 17.5588C 35.6973 27.3645 27.7927 35.3683 17.9961 35.4521Z"/>
+<path id="path20_stroke" d="M 9.0317 14.6248L 9.0317 0L -9.0317 0L -9.0317 14.6248L 9.0317 14.6248Z"/>
+<path id="path21_fill" fill-rule="evenodd" d="M 0 6.53714L 13.1182 6.53714L 6.55909 0L 0 6.53714Z"/>
+<path id="path22_fill" d="M 0 0L 19.6352 0L 19.6352 13.0324L 0 13.0324L 0 0Z"/>
+<path id="path23_fill" fill-rule="evenodd" d="M 23.083 6.53714L 16.5239 0L 9.96477 6.53714L 12.6557 6.53714L 12.6557 18.7314L 0 31.68L 0 45.0476L 7.69432 45.0476L 7.69432 34.781L 20.35 21.8743L 20.35 6.53714L 23.083 6.53714Z"/>
+<path id="path24_fill" fill-rule="evenodd" d="M 0 0L 23.5034 0L 23.5034 35.7867L 0 35.7867L 0 0Z"/>
+<path id="path25_fill" fill-rule="evenodd" d="M 0 0L 23.5034 0L 23.5034 43.6229L 0 43.6229L 0 0Z"/>
+<path id="path26_fill" d="M 1.99609 17L 1.99609 4.20312L 5.57324 4.20312C 6.62207 4.20312 7.5625 4.44336 8.39453 4.92383C 9.22656 5.39844 9.87402 6.08105 10.3369 6.97168C 10.8057 7.86231 11.04 8.87598 11.04 10.0127L 11.04 11.1904C 11.04 12.333 10.8086 13.3467 10.3457 14.2314C 9.88281 15.1162 9.22949 15.7988 8.38574 16.2793C 7.54785 16.7598 6.58398 17 5.49414 17L 1.99609 17ZM 3.07715 5.12598L 3.07715 16.0859L 5.50293 16.0859C 6.85059 16.0859 7.93164 15.6406 8.74609 14.75C 9.56055 13.8535 9.96777 12.6436 9.96777 11.1201L 9.96777 9.99512C 9.96777 8.52441 9.56641 7.34668 8.76367 6.46191C 7.96094 5.57715 6.90332 5.13184 5.59082 5.12598L 3.07715 5.12598ZM 14.7227 17L 13.668 17L 13.668 7.49023L 14.7227 7.49023L 14.7227 17ZM 13.4834 4.73926C 13.4834 4.54004 13.5479 4.37305 13.6768 4.23828C 13.8057 4.09766 13.9814 4.02734 14.2041 4.02734C 14.4268 4.02734 14.6025 4.09766 14.7314 4.23828C 14.8662 4.37305 14.9336 4.54004 14.9336 4.73926C 14.9336 4.93848 14.8662 5.10547 14.7314 5.24023C 14.6025 5.375 14.4268 5.44238 14.2041 5.44238C 13.9814 5.44238 13.8057 5.375 13.6768 5.24023C 13.5479 5.10547 13.4834 4.93848 13.4834 4.73926ZM 21.9824 8.38672C 21.7598 8.3457 21.5225 8.3252 21.2705 8.3252C 20.6143 8.3252 20.0576 8.50977 19.6006 8.87891C 19.1494 9.24219 18.8271 9.77246 18.6338 10.4697L 18.6338 17L 17.5879 17L 17.5879 7.49023L 18.6162 7.49023L 18.6338 9.00195C 19.1904 7.87695 20.084 7.31445 21.3145 7.31445C 21.6074 7.31445 21.8389 7.35254 22.0088 7.42871L 21.9824 8.38672ZM 27.1592 17.1758C 26.3506 17.1758 25.6182 16.9766 24.9619 16.5781C 24.3115 16.1797 23.8047 15.626 23.4414 14.917C 23.0781 14.2021 22.8965 13.4023 22.8965 12.5176L 22.8965 12.1396C 22.8965 11.2256 23.0723 10.4023 23.4238 9.66992C 23.7813 8.9375 24.2764 8.36328 24.9092 7.94727C 25.542 7.52539 26.2275 7.31445 26.9658 7.31445C 28.1201 7.31445 29.0342 7.70996 29.708 8.50098C 30.3877 9.28613 30.7275 10.3613 30.7275 11.7266L 30.7275 12.3154L 23.9424 12.3154L 23.9424 12.5176C 23.9424 13.5957 24.25 14.4951 24.8652 15.2158C 25.4863 15.9307 26.2656 16.2881 27.2031 16.2881C 27.7656 16.2881 28.2607 16.1855 28.6885 15.9805C 29.1221 15.7754 29.5146 15.4473 29.8662 14.9961L 30.5254 15.4971C 29.752 16.6162 28.6299 17.1758 27.1592 17.1758ZM 26.9658 8.21094C 26.1748 8.21094 25.5068 8.50098 24.9619 9.08105C 24.4229 9.66113 24.0947 10.4404 23.9775 11.4189L 29.6816 11.4189L 29.6816 11.3047C 29.6523 10.3906 29.3916 9.64648 28.8994 9.07227C 28.4072 8.49805 27.7627 8.21094 26.9658 8.21094ZM 36.291 16.2881C 37.0234 16.2881 37.6357 16.083 38.1279 15.6729C 38.626 15.2568 38.8955 14.7207 38.9365 14.0645L 39.9473 14.0645C 39.918 14.6445 39.7363 15.1748 39.4023 15.6553C 39.0684 16.1299 38.623 16.502 38.0664 16.7715C 37.5156 17.041 36.9238 17.1758 36.291 17.1758C 35.043 17.1758 34.0527 16.7422 33.3203 15.875C 32.5937 15.0078 32.2305 13.8418 32.2305 12.377L 32.2305 12.0605C 32.2305 11.123 32.3945 10.2939 32.7227 9.57324C 33.0508 8.85254 33.5195 8.2959 34.1289 7.90332C 34.7441 7.51074 35.4619 7.31445 36.2822 7.31445C 37.3252 7.31445 38.1836 7.625 38.8574 8.24609C 39.5371 8.86719 39.9004 9.68457 39.9473 10.6982L 38.9365 10.6982C 38.8896 9.9541 38.6201 9.35352 38.1279 8.89648C 37.6416 8.43945 37.0264 8.21094 36.2822 8.21094C 35.333 8.21094 34.5947 8.55371 34.0674 9.23926C 33.5459 9.9248 33.2852 10.8857 33.2852 12.1221L 33.2852 12.4297C 33.2852 13.6426 33.5459 14.5889 34.0674 15.2686C 34.5947 15.9482 35.3359 16.2881 36.291 16.2881ZM 43.6914 5.05566L 43.6914 7.49023L 45.6602 7.49023L 45.6602 8.35156L 43.6914 8.35156L 43.6914 14.6885C 43.6914 15.2158 43.7852 15.6084 43.9727 15.8662C 44.166 16.124 44.4854 16.2529 44.9307 16.2529C 45.1064 16.2529 45.3906 16.2236 45.7832 16.165L 45.8271 17.0264C 45.5518 17.126 45.1768 17.1758 44.7021 17.1758C 43.9814 17.1758 43.457 16.9678 43.1289 16.5518C 42.8008 16.1299 42.6367 15.5117 42.6367 14.6973L 42.6367 8.35156L 40.8877 8.35156L 40.8877 7.49023L 42.6367 7.49023L 42.6367 5.05566L 43.6914 5.05566ZM 49.0176 17L 47.9629 17L 47.9629 7.49023L 49.0176 7.49023L 49.0176 17ZM 47.7783 4.73926C 47.7783 4.54004 47.8428 4.37305 47.9717 4.23828C 48.1006 4.09766 48.2764 4.02734 48.499 4.02734C 48.7217 4.02734 48.8975 4.09766 49.0264 4.23828C 49.1611 4.37305 49.2285 4.54004 49.2285 4.73926C 49.2285 4.93848 49.1611 5.10547 49.0264 5.24023C 48.8975 5.375 48.7217 5.44238 48.499 5.44238C 48.2764 5.44238 48.1006 5.375 47.9717 5.24023C 47.8428 5.10547 47.7783 4.93848 47.7783 4.73926ZM 51.3027 12.1045C 51.3027 11.1904 51.4785 10.3672 51.8301 9.63477C 52.1875 8.90234 52.6885 8.33398 53.333 7.92969C 53.9834 7.51953 54.7187 7.31445 55.5391 7.31445C 56.8047 7.31445 57.8301 7.75977 58.6152 8.65039C 59.4004 9.53516 59.793 10.71 59.793 12.1748L 59.793 12.3945C 59.793 13.3145 59.6143 14.1436 59.2568 14.8818C 58.9053 15.6143 58.4072 16.1797 57.7627 16.5781C 57.1182 16.9766 56.3828 17.1758 55.5566 17.1758C 54.2969 17.1758 53.2715 16.7334 52.4805 15.8486C 51.6953 14.958 51.3027 13.7803 51.3027 12.3154L 51.3027 12.1045ZM 52.3574 12.3945C 52.3574 13.5313 52.6504 14.4658 53.2363 15.1982C 53.8281 15.9248 54.6016 16.2881 55.5566 16.2881C 56.5059 16.2881 57.2734 15.9248 57.8594 15.1982C 58.4512 14.4658 58.7471 13.502 58.7471 12.3066L 58.7471 12.1045C 58.7471 11.3779 58.6123 10.7129 58.3428 10.1094C 58.0732 9.50586 57.6953 9.04004 57.209 8.71191C 56.7227 8.37793 56.166 8.21094 55.5391 8.21094C 54.6016 8.21094 53.8369 8.58008 53.2451 9.31836C 52.6533 10.0508 52.3574 11.0117 52.3574 12.2012L 52.3574 12.3945ZM 62.9746 7.49023L 63.0098 9.11621C 63.3672 8.53027 63.8125 8.08496 64.3457 7.78027C 64.8789 7.46973 65.4678 7.31445 66.1123 7.31445C 67.1318 7.31445 67.8906 7.60156 68.3887 8.17578C 68.8867 8.75 69.1387 9.61133 69.1445 10.7598L 69.1445 17L 68.0986 17L 68.0986 10.751C 68.0928 9.90137 67.9111 9.26855 67.5537 8.85254C 67.2021 8.43652 66.6367 8.22852 65.8574 8.22852C 65.207 8.22852 64.6299 8.43359 64.126 8.84375C 63.6279 9.24805 63.2588 9.7959 63.0186 10.4873L 63.0186 17L 61.9727 17L 61.9727 7.49023L 62.9746 7.49023ZM 77.5645 14.583C 77.5645 14.0615 77.3535 13.6426 76.9316 13.3262C 76.5156 13.0098 75.8857 12.7637 75.042 12.5879C 74.1982 12.4062 73.542 12.2012 73.0732 11.9727C 72.6104 11.7383 72.2646 11.4541 72.0361 11.1201C 71.8135 10.7861 71.7021 10.3818 71.7021 9.90723C 71.7021 9.15723 72.0156 8.53906 72.6426 8.05273C 73.2695 7.56055 74.0723 7.31445 75.0508 7.31445C 76.1113 7.31445 76.9609 7.57812 77.5996 8.10547C 78.2441 8.62695 78.5664 9.30957 78.5664 10.1533L 77.5117 10.1533C 77.5117 9.59668 77.2773 9.13379 76.8086 8.76465C 76.3457 8.39551 75.7598 8.21094 75.0508 8.21094C 74.3594 8.21094 73.8027 8.36621 73.3809 8.67676C 72.9648 8.98145 72.7568 9.37988 72.7568 9.87207C 72.7568 10.3467 72.9297 10.7158 73.2754 10.9795C 73.627 11.2373 74.2627 11.4746 75.1826 11.6914C 76.1084 11.9082 76.7998 12.1396 77.2568 12.3857C 77.7197 12.6318 78.0625 12.9277 78.2852 13.2734C 78.5078 13.6191 78.6191 14.0381 78.6191 14.5303C 78.6191 15.333 78.2939 15.9746 77.6436 16.4551C 76.999 16.9355 76.1553 17.1758 75.1123 17.1758C 74.0049 17.1758 73.1055 16.9092 72.4141 16.376C 71.7285 15.8369 71.3857 15.1572 71.3857 14.3369L 72.4404 14.3369C 72.4814 14.9521 72.7393 15.4326 73.2139 15.7783C 73.6943 16.1182 74.3271 16.2881 75.1123 16.2881C 75.8447 16.2881 76.4365 16.127 76.8877 15.8047C 77.3389 15.4824 77.5645 15.0752 77.5645 14.583Z"/>
+</defs>
+</svg>

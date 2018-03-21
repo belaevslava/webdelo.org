@@ -1,0 +1,88 @@
+#tetris-container {
+    position: relative;
+    display: inline-block;
+}
+#tetris-container:before {
+    content: "That looks like a system developed in haste.";
+    position: absolute;
+    right: -260px;
+    top: 0;
+    display: block;
+    width: 240px;
+    line-height: 1.2;
+    font-size: 1.25rem;
+    font-weight: 300;
+
+    padding-left: 60px;
+    padding-bottom: 60px;
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    background-image: url(/assets/images/sections/how-do-we-work--projection/arrow-left.svg);
+    opacity: 0;
+    transition: .7s;
+}
+.fp-completely #how-do-we-work--projection--diagram:not(.run) #tetris-container:before {
+    opacity: 1;
+    transition-delay: 5s;
+}
+
+.runProjectingDiagram {
+    opacity: 0;
+    transition: .7s;
+}
+.fp-completely #how-do-we-work--projection--diagram:not(.run) .runProjectingDiagram {
+    opacity: 1;
+    transition-delay: 7s;
+}
+#tetris {
+    width: 156px;
+    height: 312px;
+}
+
+.run .runProjectingDiagram {
+    display: none;
+}
+
+.tetris-final {
+    display: inline-flex;
+    align-items: center;
+}
+.tetris-final>figcaption {
+    font-size: 1.75rem;
+    font-weight: 300;
+    text-align: center;
+}
+.step3-complete {
+    opacity: 0;
+}
+
+.tetris_invalid:before {
+    content: "";
+}
+
+@keyframes opacityAnimation {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+.run .list-of-tetris-figures>li {
+    animation: opacityAnimation 1.5s both;
+}
+.run .list-of-tetris-figures>li:nth-child(1) { animation-delay: 0s; }
+.run .list-of-tetris-figures>li:nth-child(2) { animation-delay: 1.5s; }
+.run .list-of-tetris-figures>li:nth-child(3) { animation-delay: 3s; }
+.run .list-of-tetris-figures>li:nth-child(4) { animation-delay: 4.5s; }
+.run .list-of-tetris-figures>li:nth-child(5) { animation-delay: 6s; }
+
+
+@media (max-width: 767px) {
+    #tetris-container:before {
+        right: -100px;
+        width: 90px;
+        line-height: 1.2;
+        font-size: 1.2rem;
+        text-align: right;
+        padding-left: 0;
+        padding-bottom: 50px;
+    }
+}
