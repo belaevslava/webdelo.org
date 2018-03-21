@@ -215,7 +215,7 @@ section.active.fp-completely .gd-btn-container {
     vertical-align: middle;
     width: 18px;
     height: 18px;
-    background: url(../images/sections/technologies/next-arrow.svg) center no-repeat;
+    background: url(../../images/sections/technologies/next-arrow.svg) center no-repeat;
     margin-top: -2px;
 }
 .icon-prev {
@@ -253,12 +253,12 @@ section.active.fp-completely .gd-btn-container {
 @font-face {
     font-family: 'Glyphicons Halflings';
 
-    src: url('../fonts/glyphicons-halflings-regular.eot');
-    src: url('../fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), 
-    url('../fonts/glyphicons-halflings-regular.woff2') format('woff2'), 
-    url('../fonts/glyphicons-halflings-regular.woff') format('woff'), 
-    url('../fonts/glyphicons-halflings-regular.ttf') format('truetype'), 
-    url('../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
+    src: url('../../fonts/glyphicons-halflings-regular.eot');
+    src: url('../../fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), 
+    url('../../fonts/glyphicons-halflings-regular.woff2') format('woff2'), 
+    url('../../fonts/glyphicons-halflings-regular.woff') format('woff'), 
+    url('../../fonts/glyphicons-halflings-regular.ttf') format('truetype'), 
+    url('../../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
 }
 .glyphicon {
     position: relative;
@@ -280,7 +280,7 @@ section.active.fp-completely .gd-btn-container {
     height: 28px;
 }
 [data-icon="restart"] {
-    background-image: url(../images/icons/reload.svg);
+    background-image: url(../../../images/icons/reload.svg);
 }
 
 .glyphicon-asterisk:before {
