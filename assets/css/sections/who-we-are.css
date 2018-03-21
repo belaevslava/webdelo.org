@@ -162,7 +162,7 @@
 #who-we-are #list-of-worker-groups li .team-close {
     position: absolute;
     top: 0;
-    background: #ffffff url('/assets/images/sections/who-we-are/close.svg') 50% 50% no-repeat;
+    background: #ffffff url('../../images/sections/who-we-are/close.svg') 50% 50% no-repeat;
     height: 90px;
     width: 90px;
     border-radius: 50%;

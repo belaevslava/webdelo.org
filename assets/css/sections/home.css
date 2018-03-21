@@ -16,7 +16,7 @@
     min-height: 100%;
     width: auto; height: auto;
     z-index: 1;
-    background: url(/assets/video/vput_sample.jpg) center no-repeat;
+    background: url(../../video/vput_sample.jpg) center no-repeat;
     background-size: cover;
 }
 
@@ -45,7 +45,7 @@
     bottom: 0;
     left: 0;
     right: 0;
-    background: url(/assets/video/vput_sample.jpg) center no-repeat;
+    background: url(../../video/vput_sample.jpg) center no-repeat;
     background-size: cover;
     filter: brightness(70%);
 }
