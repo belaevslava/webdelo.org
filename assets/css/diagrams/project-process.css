@@ -17,7 +17,7 @@
     padding-bottom: 60px;
     background-repeat: no-repeat;
     background-position: left bottom;
-    background-image: url(/assets/images/sections/how-do-we-work--projection/arrow-left.svg);
+    background-image: url(../../images/sections/how-do-we-work--projection/arrow-left.svg);
     opacity: 0;
     transition: .7s;
 }
