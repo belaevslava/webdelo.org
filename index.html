@@ -12,7 +12,7 @@
     <style>html, body { display: none;overflow: hidden; }</style>
     <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,400i,500,700,900&amp;subset=cyrillic" rel="stylesheet">
     <!-- Bootstrap 4 (UI) -->
-    <link rel="shortcut icon" href="/favicon.png" type="image/x-icon">
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
 
     <!-- Min CSS -->
     <link rel="stylesheet" href="assets/css/dist/bundle.min.css">
@@ -21,7 +21,7 @@
 
 <figure id="preloader" class="preloader">
     <div class="before">
-        <object id="loading-logo" data="/assets/images/sections/preloader/webdelo_logo__animated.svg" type="image/svg+xml"></object>
+        <object id="loading-logo" data="assets/images/sections/preloader/webdelo_logo__animated.svg" type="image/svg+xml"></object>
     </div>
     <div class="after">
         <figure id="fullscreen-mode" class="opacity-0">
@@ -110,7 +110,7 @@
                             </li>
                         </ul>
                         <div class="text-center pt-5">
-                            <a href="//vput.eu" class="btn btn-outline-light btn-lg" target="_blank" data-aos="fade-up">Go to the website</a>
+                            <a href="/vput.eu" class="btn btn-outline-light btn-lg" target="_blank" data-aos="fade-up">Go to the website</a>
                         </div>
                     </div>
                 </div>
@@ -168,14 +168,14 @@
                             <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
                         </filter>
                         <filter id="dropshadow" height="130%" width="130%">
-                            <feGaussianBlur in="SourceAlpha" stdDeviation="2"/> <!-- stdDeviation is how much to blur -->
-                            <feOffset dx="0" dy="0" result="offsetblur"/> <!-- how much to offset -->
+                            <feGaussianBlur in="SourceAlpha" stdDeviation="2"> <!-- stdDeviation is how much to blur -->
+                            <feOffset dx="0" dy="0" result="offsetblur"> <!-- how much to offset -->
                             <feComponentTransfer>
-                                <feFuncA type="linear" slope="0.5"/>
+                                <feFuncA type="linear" slope="0.5">
                             </feComponentTransfer>
                             <feMerge>
                                 <feMergeNode/> <!-- this contains the offset blurred image -->
-                                <feMergeNode in="SourceGraphic"/> <!-- this contains the element that the filter is applied to -->
+                                <feMergeNode in="SourceGraphic"> <!-- this contains the element that the filter is applied to -->
                             </feMerge>
                         </filter>
 
@@ -640,31 +640,31 @@
                     <ul class="list-of-tetris-figures">
                         <li>
                             <figure class="tetris-figure">
-                                <img src="/assets/images/sections/how-do-we-work--projection/figures/figure-O.svg" alt="">
+                                <img src="assets/images/sections/how-do-we-work--projection/figures/figure-O.svg" alt="">
                                 <figcaption class="figure-caption">DB <br>scheme</figcaption>
                             </figure>
                         </li>
                         <li>
                             <figure class="tetris-figure">
-                                <img src="/assets/images/sections/how-do-we-work--projection/figures/figure-L.svg" alt="">
+                                <img src="assets/images/sections/how-do-we-work--projection/figures/figure-L.svg" alt="">
                                 <figcaption class="figure-caption">Backend <br>scheme</figcaption>
                             </figure>
                         </li>
                         <li>
                             <figure class="tetris-figure">
-                                <img src="/assets/images/sections/how-do-we-work--projection/figures/figure-T.svg" alt="">
+                                <img src="assets/images/sections/how-do-we-work--projection/figures/figure-T.svg" alt="">
                                 <figcaption class="figure-caption">Workers <br>tasks</figcaption>
                             </figure>
                         </li>
                         <li>
                             <figure class="tetris-figure">
-                                <img src="/assets/images/sections/how-do-we-work--projection/figures/figure-I.svg" alt="">
+                                <img src="assets/images/sections/how-do-we-work--projection/figures/figure-I.svg" alt="">
                                 <figcaption class="figure-caption">Work <br>schedule</figcaption>
                             </figure>
                         </li>
                         <li>
                             <figure class="tetris-figure">
-                                <img src="/assets/images/sections/how-do-we-work--projection/figures/figure-Z.svg" alt="">
+                                <img src="assets/images/sections/how-do-we-work--projection/figures/figure-Z.svg" alt="">
                                 <figcaption class="figure-caption">Frontend <br>scheme</figcaption>
                             </figure>
                         </li>
@@ -674,8 +674,8 @@
                     <div id="tetris-container">
                         <object id="tetris"
                             class="tetris_invalid"
-                            data-invalid="/assets/images/sections/how-do-we-work--projection/tetris_invalid.svg"
-                            data-valid="/assets/images/sections/how-do-we-work--projection/tetris_valid.svg"
+                            data-invalid="assets/images/sections/how-do-we-work--projection/tetris_invalid.svg"
+                            data-valid="assets/images/sections/how-do-we-work--projection/tetris_valid.svg"
                             type="image/svg+xml"></object>
                     </div>
                 </div>
@@ -838,13 +838,13 @@
                                     transition: 1s;
                                 }
                             </style>
-                            <circle id="state-circle" cx="50" cy="50" fill="none" r="24" stroke="#6ede59" stroke-width="6"/>
+                            <circle id="state-circle" cx="50" cy="50" fill="none" r="24" stroke="#6ede59" stroke-width="6">
                             <path id="state-waves" d="M 32 50 Q 41 47.5697 50 50 Q 59 52.4303 68 50 A 18 18 0 0 1 32 50"
                                   fill="#6ede59">
                                 <animate attributeName="d" calcMode="spline"
                                          values="M32 50 Q41 44 50 50 Q59 56 68 50 A18 18 0 0 1 32 50;M32 50 Q41 56 50 50 Q59 44 68 50 A18 18 0 0 1 32 50;M32 50 Q41 44 50 50 Q59 56 68 50 A18 18 0 0 1 32 50"
                                          keyTimes="0;0.5;1" dur="1" keySplines="0.5 0 0.5 1;0.5 0 0.5 1" begin="0s"
-                                         repeatCount="indefinite"/>
+                                         repeatCount="indefinite">
                             </path>
                         </svg>
                         <small id="state-status">Offline</small>
@@ -859,22 +859,22 @@
                             <defs>
 								<pattern id="water" width=".25" height="1.1" patternContentUnits="objectBoundingBox">
 									<path fill="url(#bubbleLoaderGradient)"
-										  d="M0.25,1H0c0,0,0-0.659,0-0.916c0.083-0.103,0.158,0.134,0.25,0C0.25,0.127,0.25,1,0.25,1z"/>
+										  d="M0.25,1H0c0,0,0-0.659,0-0.916c0.083-0.103,0.158,0.134,0.25,0C0.25,0.127,0.25,1,0.25,1z">
 								</pattern>
 
 								<pattern id="water-text" width=".25" height="1.1"
 										 patternContentUnits="objectBoundingBox">
 									<path fill="#fff"
-										  d="M0.25,1H0c0,0,0-0.659,0-0.916c0.083-0.103,0.158,0.134,0.25,0C0.25,0.127,0.25,1,0.25,1z"/>
+										  d="M0.25,1H0c0,0,0-0.659,0-0.916c0.083-0.103,0.158,0.134,0.25,0C0.25,0.127,0.25,1,0.25,1z">
 								</pattern>
 
 								<linearGradient id="bubbleLoaderGradient" x1="0" x2="0" y1="0" y2="1">
-									<stop offset="0%" stop-color="#e28975"/>
-									<stop offset="50%" stop-color="#d45869"/>
+									<stop offset="0%" stop-color="#e28975">
+									<stop offset="50%" stop-color="#d45869">
 								</linearGradient>
 
 								<mask id="bubbleLoaderCircleMask">
-									<use x="0" y="0" xlink:href="#circle" opacity="1" fill="#fff"/>
+									<use x="0" y="0" xlink:href="#circle" opacity="1" fill="#fff">
 								</mask>
 
 								<pattern id="ldp-9b2805fe3f7b" x="0" y="0" width="197" height="200"
@@ -964,23 +964,23 @@
 								</text>
 
 								<mask id="text_mask">
-									<use x="0" y="0" xlink:href="#text" opacity="1" fill="#ffffff"/>
+									<use x="0" y="0" xlink:href="#text" opacity="1" fill="#ffffff">
 								</mask>
 							</defs>
 
-                                    <!--<use x="0" y="0" xlink:href="#text" fill="#222"/>-->
-					<circle id="circle" cx="120" cy="120" r="120" fill="#fff"/>
+                                    <!--<use x="0" y="0" xlink:href="#text" fill="#222">-->
+					<circle id="circle" cx="120" cy="120" r="120" fill="#fff">
 					<rect class="water-fill" mask="url(#bubbleLoaderCircleMask)" fill="url(#water)" x="0" y="240"
-						  width="1600" height="300"/>
+						  width="1600" height="300">
 					<rect mask="url(#bubbleLoaderCircleMask)" x="0" y="0" width="100%" height="100%"
-						  fill="url(#ldp-9b2805fe3f7b)"/>
+						  fill="url(#ldp-9b2805fe3f7b)">
 
 					<text id="text-black" class="text" x="120" y="120" text-anchor="middle" alignment-baseline="middle"
 						  font-size="60" font-weight="100" fill="#262626" opacity="0">
 						<tspan id="percent" text-anchor="middle" alignment-baseline="middle"></tspan>%
 					</text>
 					<rect class="water-fill curtain2" mask="url(#text_mask)" fill="url(#water-text)" x="0" y="240"
-						  width="1600" height="300"/>
+						  width="1600" height="300">
 
 					<style>
 						.water-fill {
