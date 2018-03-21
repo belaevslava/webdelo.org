@@ -110,7 +110,7 @@ $(document).ready(function() {
             renderer: 'svg',
             loop: true,
             autoplay: true,
-            path: 'fullscreen_mode_button.json' // the path to the animation json
+            path: 'assets/js/sections/preloader/fullscreen_mode_button.json' // the path to the animation json
         });
     });
 });

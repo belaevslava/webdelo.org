@@ -280,7 +280,7 @@ section.active.fp-completely .gd-btn-container {
     height: 28px;
 }
 [data-icon="restart"] {
-    background-image: url(../../../images/icons/reload.svg);
+    background-image: url(../../images/icons/reload.svg);
 }
 
 .glyphicon-asterisk:before {
