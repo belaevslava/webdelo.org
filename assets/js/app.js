@@ -173,7 +173,7 @@ $(function() {
             renderer: 'svg',
             loop: true,
             autoplay: true,
-            path: '../google-drive.json' // the path to the animation json
+            path: 'webdelo.org/js/google-drive.json' // the path to the animation json
         });
     });
 
