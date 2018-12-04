@@ -1,7 +1,53 @@
 {
   "name": "presentation.webdelo.org",
   "version": "1.0.0",
-  "description": "",
+  "description": "Landing for «Webdelo Studio»",
+  "homepage": "https://belaevslava.github.io/webdelo.org/",
+  "previews": {
+    "directory": "previews",
+    "images": [
+      {
+        "path": "preloader.png",
+        "title": "Preloader"
+      },
+      {
+        "path": "home.png",
+        "title": "Home"
+      },
+      {
+        "path": "evaluation.png",
+        "title": "Evaluation"
+      },
+      {
+        "path": "projection.png",
+        "title": "Projection"
+      },
+      {
+        "path": "start_development.png",
+        "title": "Start Development"
+      },
+      {
+        "path": "deployment_and_support.png",
+        "title": "Deployment and Support"
+      },
+      {
+        "path": "restful_api.png",
+        "title": "Restful Api"
+      },
+      {
+        "path": "technologies.png",
+        "title": "Technologies"
+      },
+      {
+        "path": "who_we_are.png",
+        "title": "Who We Are"
+      },
+      {
+        "path": "contacts.png",
+        "title": "Contacts"
+      }
+    ]
+  },
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
