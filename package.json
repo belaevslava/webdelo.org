@@ -5,6 +5,9 @@
   "homepage": "https://belaevslava.github.io/webdelo.org/",
   "previews": {
     "directory": "previews",
+    "main": {
+      "path": "/thumbs/home.png",
+    },
     "images": [
       {
         "path": "preloader.png",
