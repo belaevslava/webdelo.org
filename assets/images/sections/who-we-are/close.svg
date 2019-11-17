@@ -1,14 +1,1 @@
-
-<svg width="30px" height="31px" viewBox="0 0 30 31" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 47 (45396) - http://www.bohemiancoding.com/sketch -->
-    <desc>Created with Sketch.</desc>
-    <defs></defs>
-    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="square">
-        <g id="Artboard" transform="translate(-30.000000, -30.000000)" stroke="#EE0F0F" stroke-width="2">
-            <g id="Group" transform="translate(44.500000, 45.000000) rotate(45.000000) translate(-44.500000, -45.000000) translate(25.000000, 26.000000)">
-                <path d="M1,19 L39,19" id="Line"></path>
-                <path d="M20,0 L20,38" id="Line-2"></path>
-            </g>
-        </g>
-    </g>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="30" height="31" version="1.1" viewBox="0 0 30 31"><desc>Created with Sketch.</desc><g id="Page-1" fill="none" fill-rule="evenodd" stroke="none" stroke-linecap="square" stroke-width="1"><g id="Artboard" stroke="#EE0F0F" stroke-width="2" transform="translate(-30.000000, -30.000000)"><g id="Group" transform="translate(44.500000, 45.000000) rotate(45.000000) translate(-44.500000, -45.000000) translate(25.000000, 26.000000)"><path id="Line" d="M1,19 L39,19"/><path id="Line-2" d="M20,0 L20,38"/></g></g></g></svg>
